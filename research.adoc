@@ -1,0 +1,38 @@
+
+== Multi-label Classification
+
+//talks/Multilabel-Part01.pdf
+Multi-label classification is suitable in many domains, for example text
+categorisation (a document belonging to multiple categories), scene
+classification (each image may have multiple concepts or ojbects within)
+as well as video and other media, medical diagnosis, and applications in
+microbiology. The main challenge is detecting and modelling dependencies
+between labels, without this modelling being too computationally complex
+to prevent scaling up to large datasets. Multi-label classification is
+closely related to __ranking__, __multi-target prediction__, and
+__structured output prediction__.
+
+==	Data Stream Classification
+
+Many multi-label applications are found in the context of __data
+streams__, where data instances arrive continuously in a
+theoretically-infinite stream, for example in sensor networks, online
+social media, news feeds, and large deployments of e-mail. In this
+context, methods must be able to process large volumes of data quickly
+and learn and make predictions in real time, as well as detect and adapt
+to __concept drift__.
+
+== Other Topics
+
+I also have an interest in other topics such as  _graphical models_, _neural networks_, _time series_, _sequence learning_ and _structured prediction_. Several of these are closely related to multi-label classification and data streams. 
+
+== Sensing and Sensory data
+
+In Aalto University I am involved in the link:http://energyefficiency.aalto.fi/en/research/trafficsense/[Traffic Sense - Energy Efficient Traffic with Crowdsensing] project: route recognition and prediction, with the overall goal of improving efficiency. 
+
+Earlier in the link:http://www.comonsens.org/[Comonsens] project in Spain I worked on formulating and implementing a distributed particle filter on very low-power motes for target tracking.
+
+== Tree Growth
+
+In the project http://www.hiit.fi/pm/multitree/[MultiTree - Multi-scale modelling of tree growth, forest ecosystems, and their environmental control], I am working with forestry scientists to model intra-annual growth of pine trees using machine learning methods.
+

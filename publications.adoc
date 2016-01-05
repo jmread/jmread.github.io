@@ -1,0 +1,233 @@
+== Publications
+
+=== Journals
+
+Jesse Read, Indṙe Žliobaiṫe, Jaakko Hollmén. link:http://www.sciencedirect.com/science/article/pii/S0306437915001659[Labeling sensing data for mobility modeling]. _Information Systems_. Vol. In Press(0). pp 0. 2015.
+
+Luca Martino, Jesse Read, David Luengo. 
+link:http://dx.doi.org/10.1109/TSP.2015.2420537[Independent Doubly Adaptive Rejection Metropolis Sampling within Gibbs Sampling]. 
+_Transactions on Signal Processing_. Vol. 63(12). pp 3123--3138. 2015.
+
+Jesse Read, Luca Martino, Pablo M. Olmos, David Luengo. link:http://www.sciencedirect.com/science/article/pii/S0031320315000084[Scalable Multi-Output Label Prediction: From Classifier Chains to Classifier Trellises]. _Pattern Recognition_. Vol. 48(2015). pp 2096--2109. 2015.
+
+Indre Zliobaite, Albert Bifet, Jesse Read, Bernhard Pfahringer, Geoff
+Holmes.
+link:./papers/Evaluation%20methods%20and%20decision%20theory%20for%20classification%20of%20streaming%20data%20with%20temporal%20dependence.pdf[Evaluation
+methods and decision theory for classification of streaming data with
+temporal dependence]. _Machine Learning Journal._ Accepted / In Press.
+2014.
+
+Jesse Read, Katrin Achutegui, Joaquin Miguez.
+link:./papers/A%20distributed%20particle%20filter%20for%20nonlinear%20tracking%20in%20wireless%20sensor%20networks.pdf[A
+distributed particle filter for nonlinear tracking in wireless sensor
+networks]. _Elsevier Signal Processing._ Vol. 98(2014), pp 121-134.
+2014.
+
+Jesse Read, Concha Bielza, Pedro Larranaga.
+link:./papers/Read,%20Bielza,%20Larranaga%20-%20Multi-Dimensional%20Classification%20with%20Super-Classes.pdf[Multi-Dimensional
+Classification with Super-Classes]. _IEEE Transactions on Knowledge and
+Data Engineering._ 2014.
+
+Jesse Read, Luca Martino, David Luengo.
+http://arxiv.org/abs/1211.2190[Efficient Monte Carlo Methods for
+Multi-Dimensional Learning with Classifier Chains]. __Pattern
+Recognition__. Elsevier. Vol. 47(3). 2014.
+
+Luca Martino, Jesse Read.
+http://link.springer.com/article/10.1007%2Fs00180-013-0429-2[On the
+Flexibility of the Design of Multiple Try Metropolis Schemes].
+__Computational Statistics__. DOI 10.1007/s00180-013-0429-2, 2013.
+
+Luca Martino, Victor Pascual del Olmo, Jesse Read.
+http://arxiv.org/pdf/1112.4048[A Multi-point Metropolis Scheme with
+Generic Weight Functions]. __Statistics and Probability Letters__. Vol.
+82(7). April 2012.
+
+Jesse Read, Albert Bifet, Bernhard Pfahringer, Geoff Holmes.
+http://www.springerlink.com/content/5q7gg153j4327h23/[Scalable and
+Efficient Multi-label Classification for Evolving Data Streams.]
+__Machine Learning Journal__. Springer. Vol. 88(Numbers 1-2), pp
+243-272. (January 2012)
+
+Jesse Read, Bernhard Pfahringer, Geoff Holmes, Eibe Frank.
+link:./papers/ECC.pdf[Classifier Chains for Multi-label Classification].
+__Machine Learning Journal__. Springer. Vol. 85(3), pp 333-359. (May
+		2011).
+
+Daniel Kuen Seong Su, Victoria Siew Yen Yee, and Jesse Read.
+link:./papers/eMINDS.pdf[Exploring Text-based and Graphical-based Usable
+Interfaces for Mobile Chat Systems]. __eMinds International Journal on
+Human-Computer Interaction__. Vol. I(3), (2007).
+
+=== Conference Proceedings
+
+Albert Bifet, Gianmarco De Francisci Morales, Jesse Read, Bernhard Pfahringer, Geoff Holmes. 
+link:http://dl.acm.org/citation.cfm?id=2783372[Efficient Online Evaluation of Big Data Stream Classifiers]. 
+In Proc. of ACM SIGKDD Int. Conf. on Knowledge Discovery and Data Mining (KDD'15). pp 59-68. Sydney, Australia, 2015
+
+Jesse Read, Fernando Perez-Cruz, Albert Bifet. 
+link:./papers/Read,%20Perez-Cruz,%20Bifet%20-%20Deep%20Learning%20in%20Partially%20Labelled%20Data%20Streams.pdf[Deep Learning in Partially-Labeled Data Streams].
+In Proc. of __The 30th ACM Symposium on Applied Computing (SAC 2015)__. Salamanca, Spain. 2015.
+
+Jesse Read, Antti Puurula, Albert Bifet.
+link:./papers/Read,%20Puurula,%20Bifet%20-%20Multi-label%20Classification%20with%20Meta-Labels.pdf[Multi-label
+Classification with Meta
+Labels]link:./talks/ICDM2014-slides.pdf[[slides]]. __In Proc. of IEEE
+International Conference on Data Mining (ICDM 2014)__. pp 941-946.
+December 2014.
+
+Jesse Read, Jaakko Hollmen.
+link:./papers/Read,%20Holmen%20-%20A%20Deep%20Interpretation%20of%20Classifier%20Chains.pdf[A
+Deep Interpretation of Classifier Chains]
+link:./talks/IDA2014-slides.pdf[[slides]]. In Proc of _The Thirteenth
+International Symposium on Intelligent Data Analysis (IDA 2014)._ LNCS
+8819, pp 251-262. Springer. Leuven, Belgium. 2014.
+
+Grigorios Tsoumakas, Apostolos Papadopoulos, Weining Qian, Stavros Vologiannidis, Alexander D'yakonov, Antti Puurula, Jesse Read, Jan Svec, Stanislav Semenov.
+link:./papers/Tsoumakas%20et%20al%20-%20WISE%202014%20Challenge:%20Multi-label%20Classification%20of%20Print%20Media%20Articles%20to%20Topics.pdf[WISE 2014 Challenge: Multi-label Classification of Print Media Articles to
+Topics]. In Proc. of __15th International Conference on Web Information
+Systems Engineering (WISE 2014)__, LNCS 8787 Part II, pp 541-548.
+Springer. October 12-14, 2014. See also:
+link:./talks/WISE2014-presentation.pdf[[slides of our team's solution
+(Antti Puurula, Jesse Read)]]
+
+Luca Martino, Jesse Read, David Luengo.
+link:./papers/Martino,%20Read,%20Luengo%20-%20Independent%20doubly%20adaptive%20rejection%20Metropolis%20sampling.pdf[Independent
+doubly adaptive rejection Metropolis sampling]. _In Proc. of the IEEE
+39th International Conference on Acoustics, Speech, and Signal
+Processing (ICASSP 2014)._
+
+Jesse Read, Luca Martino, David Luengo.
+link:./papers/MCC_icassp2013.pdf[Efficient Monte Carlo Optimization for
+Multi-label Classifier Chains]
+link:./papers/ICASSP-Poster.pdf[[poster]]. In Proc. of __The 38th
+International Conference on Acoustics, Speech, and Signal Processing
+(ICASSP 2013)__, pp 3457-3461. Vancouver, Canada 2013
+
+Albert Bifet, Jesse Read, Bernhard Pfahringer, and Geoff Holmes, Indre
+Zliobaite.
+link:./papers/CD-MOA:%20Change%20Detection%20Framework%20for%20Massive%20Online%20Analysis.pdf[CD-MOA:
+Change Detection Framework for Massive Online Analysis.] In Proc. of
+_The 12th International Symposium on Intelligent Data Analysis (IDA 2013)._ 2013.
+
+Albert Bifet, Jesse Read, Indre Zliobaite, Bernhard Pfahringer, and
+Geoff Holmes.
+link:./papers/Pitfalls%20in%20Benchmarking%20Data%20Stream%20Classification%20and%20How%20to%20Avoid%20Them.pdf[Pitfalls
+in benchmarking data stream classification and how to avoid them.] In
+Proc. of the __European Conference on Machine Learning and Principles
+and Practice of Knowledge Discovery in Databases (ECMLPKDD 2013)__.
+2013.
+
+Albert Bifet, Jesse Read, Bernhard Pfahringer, Geoff Holmes.
+link:./papers/article2_SAC.pdf[Efficient Data Stream Classification via
+Probabilistic Adaptive Windows]. In Proc. of __The 28th ACM Symposium on
+Applied Computing (SAC 2013)__. Coimbra, Portugal 2013.
+
+Jesse Read, Albert Bifet, Bernhard Pfahringer, Geoff Holmes.
+http://www.springerlink.com/content/yv714412n6w21170/[Batch-Incremental
+versus Instance-Incremental Learning in Dynamic and Evolving Data]
+link:./talks/IDA2012-slides.pdf[[slides]]. In Proc. of __The Eleventh
+International Symposium on Intelligent Data Analysis (IDA 2012)__.
+Helsinki, Finland. October 2012
+
+Jesse Read, Bernhard Pfahringer, Geoff Holmes, Eibe Frank.
+link:./papers/chains.pdf[Classifier Chains for Multi-label
+Classification]. In Proc. of 20th European Conference on Machine
+Learning (ECML 2009). Bled, Slovenia, September 2009.
+link:./talks/chains-ECML-2009-presentation.pdf[[slides]]
+link:./talks/ecml-2009-chains-poster.pdf[[poster]]
+http://meka.sourceforge.net[[software]]
+
+Jesse Read, Bernhard Pfahringer, Geoff Holmes.
+link:./papers/icmd08-eps-short.pdf[Multi-label Classification using
+Ensembles of Pruned Sets]. Proc. of IEEE International Conference on
+Data Mining (ICDM 2008). Pisa, Italy, December 2008.
+link:./papers/icdm08-eps-long.pdf[(long version)]
+link:./talks/icdm-2008-short.pdf[[slides]]
+http://meka.sourceforge.net[[software]]
+
+Jesse Read. link:./papers/NZCSRCS08.pdf[A Pruned Problem Transformation
+Method for Multi-label Classification]. In Proc. of the NZ Computer
+Science Research Student Conference. Christchurch, New Zealand (2008).
+link:./talks/presentation-christchurch.pdf[[slides]]
+
+=== Workshop Proceedings / Demos
+
+Jesse Read, Albert Bifet. 
+link:./papers/Read,%20Bifet%20-%20Data%20Stream%20Classification%20using%20Random%20Feature%20Functions%20and%20Novel%20Method%20Combinations.pdf[Data Stream Classification using Random Feature Functions and Novel Method Combinations].  
+RTStreams2015: The 1st IEEE International Workshop on Real Time Data Stream Analytics held in conjunction with IEEE BigDataSE-15. 2015.
+Helsinki, Finland. 2015.
+
+Jesse Read. link:./talks/Talk-MTP14-Nancy.pdf[Classifier Chains for
+Multi-target Prediction]. ECML-PKKD 2014 International Workshop on
+Multi-target Prediction (MTP '14). Nancy, France. 2014.
+
+Luca Martino, Jesse Read, David Luengo.
+http://arxiv.org/pdf/1205.5494.pdf[Improved Adaptive Rejection
+Metropolis Sampling] XXIX-th European Meeting of Statisticians (EMS
+2013). July 2013.
+
+Jesse Read, Albert Bifet, Geoff Holmes, Bernhard Pfahringer.
+http://jmlr.csail.mit.edu/proceedings/papers/v17/read11a/read11a.pdf[Streaming
+Multi-label Classification] link:./talks/WAPA-2011-slides.pdf[[slides]]
+http://videolectures.net/wapa2011_read_classification/[[video]]
+Workshop on Applications of Pattern Analysis (WAPA). Castro-Urdiales,
+Spain. October 2011
+
+Albert Bifet, Geoff Holmes, Bernhard Pfahringer, Jesse Read, Philipp
+Kranen, Hardy Kremer, Timm Jansen, and Thomas Seidl.
+http://www.springerlink.com/content/36w675q41u7708w2/[MOA: a Real-time
+Analytics Open Source Framework]. Demo at Machine Learning and Knowledge
+Discovery in Databases, European Conference, ECML PKDD. September, 2011
+
+Jesse Read, Bernhard Pfahringer, Geoff Holmes.
+link:./papers/synth.pdf[Generating Synthetic Multi-label Data Streams].
+In Proc. of ECML/PKKD 2009 Workshop on Learning from Multi-label Data
+(MLD'09). Bled, Slovenia, September 2009.
+link:./talks/ecml-2009-synth-poster.pdf[[poster]]
+http://meka.sourceforge.net[[software]]
+
+=== Technical Reports
+
+Antti Puurula, Jesse Read, Albert Bifet.
+http://de.arxiv.org/pdf/1405.0546[Kaggle LSHTC4 Winning Solution].
+Report on our winning solution to the LSHTC4 Kaggle Competition. 2014.
+
+Jesse Read, Albert Bifet, Geoff Holmes, Bernhard Pfahringer.
+http://www.cs.waikato.ac.nz/pubs/wp/2010/uow-cs-wp-2010-04.pdf[Efficient
+Multi-label Classification for Evolving Data Streams]. Technical Report
+2010/04. University of Waikato. New Zealand. March 2010.
+
+=== Theses
+
+Jesse Read.
+http://researchcommons.waikato.ac.nz//handle/10289/4645[Scalable
+Multi-label Classification]. PhD Thesis, University of Waikato,
+Hamilton, New Zealand. September 2010.
+
+Jesse Read. **Filtering Spam with Machine Learning**. Honours Thesis,
+University of Waikato, Hamilton, New Zealand. (2005)
+
+=== Book Chapters
+
+Albert Bifet, Jesse Read. **Data Stream Mining**. In Wang, John. Editor
+(Ed.),
+http://www.igi-global.com/book/encyclopedia-business-analytics-optimization/90651&f=hardcover[Encyclopedia
+of Business Analytics and Optimization (5 Volumes)] Chapter 61 (pp. 664
+- 666). IGI Global. (2014)
+
+Jesse Read, Albert Bifet. **Multi-label Classification**. In Wang, John.
+Editor (Ed.),
+http://www.igi-global.com/book/encyclopedia-business-analytics-optimization/90651&f=hardcover[Encyclopedia
+of Business Analytics and Optimization (5 Volumes)] Chapter 142 (pp.
+1581 - 1584). IGI Global. (2014)
+
+	Note that some of the published articles may be covered by copyright.
+	You may browse the articles at your convenience, in the same spirit as
+	you may read a journal or a proceedings volume in a public library.
+	Copying, or distributing these files may violate the copyright
+	protection law.
+
+=== Citations
+
+See me on link:http://scholar.google.fi/citations?user=4gNCRFAAAAAJ&hl=en&oi=ao[Google Scholar]

@@ -1,0 +1,32 @@
+
+
+
+
+
+</div>
+<div class="menu">
+<img src="./me_sm.jpg" alt="picture" />
+<!-- <div class="menu_title">Menu</div> -->
+<ul>
+<li><a href="index.html" class="menu_link">Contact</a></li>
+<li><a href="research.html" class="menu_link">Research</a></li>
+<li><a href="publications.html" class="menu_link">Publications</a></li>
+<li><a href="talks.html" class="menu_link">Talks and Teaching</a></li>
+<li><a href="software.html" class="menu_link">Software and Datasets</a></li>
+<!-- <li><a href="links.html" class="menu_link">Links</a></li> -->
+</ul>
+</div>
+
+<div id="clear"></div>
+
+</div>
+
+<div id="main_content_bottom">
+</div>
+
+</div>
+
+
+</body>
+
+</html>

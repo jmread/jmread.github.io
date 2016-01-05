@@ -1,0 +1,56 @@
+:frame: none
+:grid: none
+:halign: left
+:valign: top
+
+//[grid=none,frame=none]
+//|==============================================
+//| Since December 2013 I am a researcher at http://ics.aalto.fi/en/[Aalto University] and http://www.hiit.fi/[HIIT] in Finland. 
+//|Prior to that I was a post-doc, and then lecturer, in the http://www.tsc.uc3m.es/[Department of Signal Theory and Communications at the Universidad Carlos III, Madrid].
+//| My main research interests include *multi-label / multi-output* classification, classification in *sequential data* and *evolving data streams,* and *sensory data*. 
+//| I completed my PhD in the http://cs.waikato.ac.nz/ml/[Machine Learning Group at the University of Waikato] in 2010. 
+//|==============================================
+
+== Contact
+
+Email: firstname.lastname @ aalto.fi
+
+Telephone: 	+358 50 430 1668 
+
+=== Office
+
+Computer Science Building, room A343 (3rd floor) +
+Konemiehentie 2, Espoo +
+FI-00076, FINLAND
+
+=== Postal Address
+
+Aalto University School of Science +
+Department of Information and Computer Science +
+P.O. Box 15400 +
+FI-00076, FINLAND
+
+== Bio
+
+Since December 2013 I am a research scientist in the link:http://www.hiit.fi/pm[Parsimonious Modelling Group], affiliated with http://ics.aalto.fi/en/[Aalto University] and the http://www.hiit.fi/[Helsinki Institute for Information Technology] in Finland.
+
+Prior to that I was a post-doc, and then lecturer, in the http://www.tsc.uc3m.es/[Department of Signal Theory and Communications at the Universidad Carlos III, Madrid]. 
+
+I completed my PhD in the http://cs.waikato.ac.nz/ml/[Machine Learning Group at the University of Waikato] in 2010. 
+//Earlier I did my BCMS(Hons.) at Waikato.
+
+//My main research interests are in the field of machine learning, particularly
+
+//	* multi-label / multi-output classification
+//	* scalable methods
+//	* learning from sequential data 
+//	* classification in evolving data streams
+//   * wireless sensor networks and sensory data
+//	* graphical models
+//	* neural networks
+
+== News
+
+	* [September 2015] link:./talks/Tutorial-MLC-Porto.pdf[Tutorial on Multi-label Classification] given at _Summer School on Data Sciences for Big Data_ in Porto.
+	* [June 2015] New version of https://sourceforge.net/projects/meka/files/meka-1.7.7/[MEKA released]
+	* [May 2015] I am Poster & Video Chair for https://ida2015.univ-st-etienne.fr/[IDA 2015]. Consider submitting to the https://ida2015.univ-st-etienne.fr/call-for-phd-posters-videos/[PhD Poster Track] (deadline 15 Jul early, 1 Sep late)!

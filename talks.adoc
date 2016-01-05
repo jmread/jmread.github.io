@@ -1,0 +1,75 @@
+== Talks
+
+Slides from a selection of talks and tutorials. The slides from conference and workshop talks are linked to within my link:publications.html[Publications page].
+
+=== Tutorials
+
+link:./talks/Tutorial-MLC-Porto.pdf[Multi-label Classification] Multi-label Classification 
+_ECML-PKDD Summer School on Data Sciences for Big Data_ September 02-05, 2015, Porto, Portugal.
+	
+*Multi-label Classification* [link:./talks/Multilabel-Part01.pdf[Part I]], [link:./talks/Multilabel-Part02.pdf[Part II]] 
+_Summer School on Machine Learning and Knowledge Discovery in Databases (MLKDD)_ July 14-17, 2013, Sao Carlos, SP, Brazil.
+
+=== Seminar Talks
+
+"link:./talks/Talk-Helsinki.pdf[Classifier Chains for Multi-label
+Classification]". Seminar Talk. University of Helsinki, HIIT Kumpula,
+Helsinki, March 28, 2014
+
+"link:./talks/Charla-Malaga.pdf[Advances in Multi-label
+Classification]". Seminar Talk. Universidad de Málaga, Departmento
+Lenjuages y Ciencias de la Computación, Málaga, June 2011
+
+"link:./talks/presentation-barcelona_odp.pdf[On-line Multi-label
+Classification]". Seminar Talk. Universitat Politècnica de Catalunya,
+Departament de Llenguatges i Sistemes Informàtics, Barcelona, October
+2008
+
+=== Project Talks
+
+"**A WSN Testbed for Distributed Signal Processing**"
+
+* link:talks/COMONSENS3.pdf[[July 2013, Vigo]]
+link:videos/COMONSENS3.m4v[(video)]
+* link:talks/WP3-P2-UPF-Read.pdf[[January 2013, Barcelona]]
+* link:talks/COMONSENS1.pdf[[July 2011, San Sebastian]]
+
+=== A Selection of Group Talks
+
+"link:./talks/UC3M-Charla2.pdf[Better Classifier Chains for Multi-label
+Classification]". Group Talk. Signal Theory and Processing Group.
+Universidad Carlos III de Madrid, July 2011
+
+"link:./talks/Charla-UPC.pdf[Work on Multi-label Classification]".
+Universitat Politècnica de Catalunya, Departament de Llenguatges i
+Sistemes Informàtics, Barcelona, May 2011
+
+"link:./talks/Charla-UC3M.pdf[Scalable Multi-label Classification]".
+Group Talk. Signal Theory and Processing Group. Universidad Carlos III
+de Madrid, January 2011
+
+"link:./talks/Report-2009.pdf[Efficient Multi-label Classification]".
+Internal Doctoral Conference. University of Waikato, November 2009
+
+"link:./talks/Report.pdf[Methods for On-line Multi-label
+Classification]". Internal Doctoral Conference. University of Waikato,
+December 2008
+
+"link:./talks/mend.pdf[Ensembles of Nested Dichotomies for Multi-label
+Classification]". Machine Learning Group, Department of Computer
+Science, University of Waikato, Hamilton, New Zealand, July 2008
+
+"link:./talks/Presentation-Notts.pdf[Online Hierarchical Multi-label
+Classification]". Mixed Reality Lab, Department of Computer Science,
+University of Nottingham, U.K., September 2007
+
+== Teaching
+
+*Special Course in Computer and Information Science III P (5 ECTS) Spring 2015* (with Jaakko Hollmén) _Dynamical models for prediction and decision making_
+
+*Tratamiento de Datos 2013/2014* (Laboratorios - Procesos Gaussianos). _Máster Universitario en Ingeniería de Telecomunicación_, Universidad Carlos III de Madrid.
+    [link:codigo_matlab_1.zip[Código Matlab Part 1], link:codigo_matlab_2.zip[Part 2]]. 
+
+*Systems and Signals 2013/2014* (Part 1/2) _Grado en Ing. Biomédica_, Universidad Carlos III de Madrid.  
+ [link:./talks/Notes_Signals-and-Systems.pdf[Course Notes]]. 
+
