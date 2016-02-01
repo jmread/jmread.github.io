@@ -1,8 +1,8 @@
 #!/bin/sh
 
+ADPATH="$HOME/Downloads/asciidoc-8.6.9/asciidoc.py"
 ADPATH="$HOME/apps/usr/local/bin"
 ADPATH="/usr/bin/asciidoc"
-ADPATH="$HOME/Downloads/asciidoc-8.6.9/asciidoc.py"
 ASCIIDOC="$ADPATH --backend=xhtml11 \
 	-a linkcss \
 	-a stylesdir=style \

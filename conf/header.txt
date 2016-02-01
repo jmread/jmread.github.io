@@ -3,8 +3,8 @@
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="description" content="Homepage of Jesse Read. Aalto University, Espoo, Finland." />
-<meta name="keywords" content="phd waikato madrid universidad carlos aalto university computer science multi-label classification data streams applied machine learning sensor networks" />
+<meta name="description" content="Homepage of Jesse Read. Research and Development Engineer. Télécom ParisTech, France." />
+<meta name="keywords" content="phd waikato madrid universidad carlos aalto paristech telecom university computer science multi-label classification data streams applied machine learning sensor networks" />
 	<title>Jesse Read</title>
 <link href="./style/style.css" rel="stylesheet" type="text/css" />
 
@@ -30,7 +30,7 @@
 
 <div id="header"><h1>Jesse Read</h1></div>
 
-<div id="sub_header">Department of Information and Computer Science<br>Aalto University, Espoo, Finland</div>
+<div id="sub_header"></div>
 
 <div id="main_content_top"></div>
 
