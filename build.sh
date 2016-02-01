@@ -11,17 +11,23 @@ ASCIIDOC="$ADPATH --backend=xhtml11 \
 	-a max-width=1024px"
 
 
-for INPUT in  *.adoc ; do
+#for INPUT in  *.adoc ; do
 	# If a file ending in ".txt" then process with AsciiDoc.
-	if [ -f $INPUT ] && [ `echo $INPUT | grep -c ".adoc$"` == 1 ] ; then
-		echo "Processing $INPUT"
-		OUTPUT=`basename $INPUT .adoc`
-		$ASCIIDOC --out-file $OUTPUT.html $INPUT;
+	
+INPUT="index.adoc"
+if [ ! -z "$1" ]; then
+	INPUT="$1"
+fi
 
-		# Else if a directory, process its contents.
-	elif [ -d $INPUT ] ; then
-		echo "Processing directory $INPUT"
-		process_asciidoc `ls $INPUT/*`
-	fi
-done
+if [ -f $INPUT ] && [ `echo $INPUT | grep -c ".adoc$"` == 1 ] ; then
+	echo "Processing $INPUT"
+	OUTPUT=`basename $INPUT .adoc`
+	$ASCIIDOC --out-file $OUTPUT.html $INPUT;
+
+	# Else if a directory, process its contents.
+elif [ -d $INPUT ] ; then
+	echo "Processing directory $INPUT"
+	process_asciidoc `ls $INPUT/*`
+fi
+#done
 
