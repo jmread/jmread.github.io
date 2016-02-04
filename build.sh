@@ -29,5 +29,6 @@ elif [ -d $INPUT ] ; then
 	echo "Processing directory $INPUT"
 	process_asciidoc `ls $INPUT/*`
 fi
+
 #done
 

@@ -12,10 +12,8 @@ Jesse Read, Luca Martino, Pablo M. Olmos, David Luengo. link:http://www.scienced
 
 Indre Zliobaite, Albert Bifet, Jesse Read, Bernhard Pfahringer, Geoff
 Holmes.
-link:./papers/Evaluation%20methods%20and%20decision%20theory%20for%20classification%20of%20streaming%20data%20with%20temporal%20dependence.pdf[Evaluation
-methods and decision theory for classification of streaming data with
-temporal dependence]. _Machine Learning Journal._ Accepted / In Press.
-2014.
+link:http://dx.doi.org/10.1007/s10994-014-5441-4[Evaluation methods and decision theory for classification of streaming data with
+temporal dependence]. _Machine Learning Journal._ 98(3). pp 455-482. 2015.
 
 Jesse Read, Katrin Achutegui, Joaquin Miguez.
 link:./papers/A%20distributed%20particle%20filter%20for%20nonlinear%20tracking%20in%20wireless%20sensor%20networks.pdf[A
@@ -50,14 +48,12 @@ __Machine Learning Journal__. Springer. Vol. 88(Numbers 1-2), pp
 243-272. (January 2012)
 
 Jesse Read, Bernhard Pfahringer, Geoff Holmes, Eibe Frank.
-link:./papers/ECC.pdf[Classifier Chains for Multi-label Classification].
-__Machine Learning Journal__. Springer. Vol. 85(3), pp 333-359. (May
-		2011).
+link:http://link.springer.com/article/10.1007%2Fs10994-011-5256-5[Classifier Chains for Multi-label Classification]. 
+__Machine Learning Journal__. Springer. Vol. 85(3), pp 333-359. (May 2011).
 
 Daniel Kuen Seong Su, Victoria Siew Yen Yee, and Jesse Read.
-link:./papers/eMINDS.pdf[Exploring Text-based and Graphical-based Usable
-Interfaces for Mobile Chat Systems]. __eMinds International Journal on
-Human-Computer Interaction__. Vol. I(3), (2007).
+link:"./papers/Seong%20Su,%20Yen%20Yee,%20Read%20-%20Exploring%20Text-based%20and%20Graphical-based%20Usable%20Interfaces%20for%20Mobile%20Chait%20Systems.pdf"[Exploring Text-based and Graphical-based Usable Interfaces for Mobile Chat Systems].
+__eMinds International Journal on Human-Computer Interaction__. Vol. I(3), (2007).
 
 === Conference Proceedings
 
@@ -131,12 +127,11 @@ International Symposium on Intelligent Data Analysis (IDA 2012)__.
 Helsinki, Finland. October 2012
 
 Jesse Read, Bernhard Pfahringer, Geoff Holmes, Eibe Frank.
-link:./papers/chains.pdf[Classifier Chains for Multi-label
+link:http://link.springer.com/article/10.1007%2Fs10994-011-5256-5[Classifier Chains for Multi-label
 Classification]. In Proc. of 20th European Conference on Machine
 Learning (ECML 2009). Bled, Slovenia, September 2009.
 link:./talks/chains-ECML-2009-presentation.pdf[[slides]]
 link:./talks/ecml-2009-chains-poster.pdf[[poster]]
-http://meka.sourceforge.net[[software]]
 
 Jesse Read, Bernhard Pfahringer, Geoff Holmes.
 link:./papers/icmd08-eps-short.pdf[Multi-label Classification using
@@ -144,7 +139,6 @@ Ensembles of Pruned Sets]. Proc. of IEEE International Conference on
 Data Mining (ICDM 2008). Pisa, Italy, December 2008.
 link:./papers/icdm08-eps-long.pdf[(long version)]
 link:./talks/icdm-2008-short.pdf[[slides]]
-http://meka.sourceforge.net[[software]]
 
 Jesse Read. link:./papers/NZCSRCS08.pdf[A Pruned Problem Transformation
 Method for Multi-label Classification]. In Proc. of the NZ Computer
@@ -185,7 +179,6 @@ link:./papers/synth.pdf[Generating Synthetic Multi-label Data Streams].
 In Proc. of ECML/PKKD 2009 Workshop on Learning from Multi-label Data
 (MLD'09). Bled, Slovenia, September 2009.
 link:./talks/ecml-2009-synth-poster.pdf[[poster]]
-http://meka.sourceforge.net[[software]]
 
 === Technical Reports
 
