@@ -25,43 +25,43 @@ Classification]". Seminar Talk. Universitat Politècnica de Catalunya,
 Departament de Llenguatges i Sistemes Informàtics, Barcelona, October
 2008
 
-=== Project Talks
-
-"**A WSN Testbed for Distributed Signal Processing**"
-
-* link:talks/COMONSENS3.pdf[[July 2013, Vigo]]
-link:videos/COMONSENS3.m4v[(video)]
-* link:talks/WP3-P2-UPF-Read.pdf[[January 2013, Barcelona]]
-* link:talks/COMONSENS1.pdf[[July 2011, San Sebastian]]
+//=== Project Talks
+//
+//"**A WSN Testbed for Distributed Signal Processing**"
+//
+//* link:talks/COMONSENS3.pdf[[July 2013, Vigo]]
+//link:videos/COMONSENS3.m4v[(video)]
+//* link:talks/WP3-P2-UPF-Read.pdf[[January 2013, Barcelona]]
+//* link:talks/COMONSENS1.pdf[[July 2011, San Sebastian]]
 
 //=== A Selection of Group Talks
 
 //"link:./talks/UC3M-Charla2.pdf[Better Classifier Chains for Multi-label
-Classification]". Group Talk. Signal Theory and Processing Group.
-Universidad Carlos III de Madrid, July 2011
+//Classification]". Group Talk. Signal Theory and Processing Group.
+//Universidad Carlos III de Madrid, July 2011
 
 //"link:./talks/Charla-UPC.pdf[Work on Multi-label Classification]".
-Universitat Politècnica de Catalunya, Departament de Llenguatges i
-Sistemes Informàtics, Barcelona, May 2011
+//Universitat Politècnica de Catalunya, Departament de Llenguatges i
+//Sistemes Informàtics, Barcelona, May 2011
 
 //"link:./talks/Charla-UC3M.pdf[Scalable Multi-label Classification]".
-Group Talk. Signal Theory and Processing Group. Universidad Carlos III
-de Madrid, January 2011
+//Group Talk. Signal Theory and Processing Group. Universidad Carlos III
+//de Madrid, January 2011
 
 //"link:./talks/Report-2009.pdf[Efficient Multi-label Classification]".
-Internal Doctoral Conference. University of Waikato, November 2009
+//Internal Doctoral Conference. University of Waikato, November 2009
 
 //"link:./talks/Report.pdf[Methods for On-line Multi-label
-Classification]". Internal Doctoral Conference. University of Waikato,
-December 2008
+//Classification]". Internal Doctoral Conference. University of Waikato,
+//December 2008
 
 //"link:./talks/mend.pdf[Ensembles of Nested Dichotomies for Multi-label
-Classification]". Machine Learning Group, Department of Computer
-Science, University of Waikato, Hamilton, New Zealand, July 2008
+//Classification]". Machine Learning Group, Department of Computer
+//Science, University of Waikato, Hamilton, New Zealand, July 2008
 
 //"link:./talks/Presentation-Notts.pdf[Online Hierarchical Multi-label
-Classification]". Mixed Reality Lab, Department of Computer Science,
-University of Nottingham, U.K., September 2007
+//Classification]". Mixed Reality Lab, Department of Computer Science,
+//University of Nottingham, U.K., September 2007
 
 == Teaching
 
