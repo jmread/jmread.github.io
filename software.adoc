@@ -1,16 +1,14 @@
 == Software
 
-=== MEKA: Multilabel Extension to weKA
+=== MEKA: A Multi-label/multi-target Extension to weKA
 
-I maintain the MEKA project for multi-label classification: link:http://meka.sourceforge.net[].
-
-//image:MEKA.png[Meka]
-
+I am the creator and main developer of the link:http://meka.sourceforge.net[MEKA Project] for multi-label classification:
+//image::GUI04.png["MEKA", height=100, width=100, link="GUI04.png"]
 A Java framework containing around two dozen multi-label and multi-output classifiers for train/test, cross validation, incremental and semi-supervised learning.
 
 === MOA: Massive Online Analysis
 
-I am involved in the MOA project: link:http://moa.cs.waikato.ac.nz[].
+I am involved in the link:http://moa.cs.waikato.ac.nz[MOA Project] for learning in data streams.
 
 === A2RMS: Implementation of the A2RMS Sampling Algorithm
 
@@ -19,6 +17,8 @@ I (with Luca Martino and David Luengo) maintain Matlab/GNU Octave link:http://a2
 === DPFlib: A library in `C` for distributed particle filters.
 
 I developed link:http://sourceforge.net/projects/dpflib/[code for implementing distributed particle filters] on very low powered sensor 'motes', in the `TinyOS` operating system. However, the code is also standalone and can be compiled and run by regular `C`. Here is a link:videos/COMONSENS3.m4v[video of a deployment].
+
+//image::DPF.jpg["DPF", height=100, width=100, link="DPF.jpg"]
 
 == Datasets
 

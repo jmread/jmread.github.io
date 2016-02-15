@@ -52,7 +52,7 @@ link:http://link.springer.com/article/10.1007%2Fs10994-011-5256-5[Classifier Cha
 __Machine Learning Journal__. Springer. Vol. 85(3), pp 333-359. (May 2011).
 
 Daniel Kuen Seong Su, Victoria Siew Yen Yee, and Jesse Read.
-link:"./papers/Seong%20Su,%20Yen%20Yee,%20Read%20-%20Exploring%20Text-based%20and%20Graphical-based%20Usable%20Interfaces%20for%20Mobile%20Chait%20Systems.pdf"[Exploring Text-based and Graphical-based Usable Interfaces for Mobile Chat Systems].
+link:./papers/Seong%20Su,%20Yen%20Yee,%20Read%20-%20Exploring%20Text-based%20and%20Graphical-based%20Usable%20Interfaces%20for%20Mobile%20Chait%20Systems.pdf[Exploring Text-based and Graphical-based Usable Interfaces for Mobile Chat Systems].
 __eMinds International Journal on Human-Computer Interaction__. Vol. I(3), (2007).
 
 === Conference Proceedings
@@ -115,7 +115,7 @@ and Practice of Knowledge Discovery in Databases (ECMLPKDD 2013)__.
 2013.
 
 Albert Bifet, Jesse Read, Bernhard Pfahringer, Geoff Holmes.
-link:./papers/article2_SAC.pdf[Efficient Data Stream Classification via
+link:https://drive.google.com/file/d/0B-MBtJlIZA-Banl4RXV1VGZCSWc/view?usp=sharing[Efficient Data Stream Classification via
 Probabilistic Adaptive Windows]. In Proc. of __The 28th ACM Symposium on
 Applied Computing (SAC 2013)__. Coimbra, Portugal 2013.
 
