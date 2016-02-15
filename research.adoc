@@ -12,7 +12,7 @@ microbiology.
 The main challenge is detecting and modelling dependencies
 between labels, without this model becoming too computationally complex. 
 
-image::cc.png[CC]
+image::cc.png[CC, align="center"]
 
 Multi-label classification is
 closely related to __ranking__, __multi-target prediction__, and
@@ -35,15 +35,23 @@ to __concept drift__.
 
 In Aalto University I was involved in the link:http://energyefficiency.aalto.fi/en/research/trafficsense/[Traffic Sense - Energy Efficient Traffic with Crowdsensing] project: route recognition and prediction. With only a week or so of location data from a mobile phone device, it was possible to make reasonably accurate predictions about the traveller's route and future destination.
 
-image::dev98.png["TrafficSense", height=150, width=150, link="https://drive.google.com/file/d/0B-MBtJlIZA-BWkVVYkJETEtZckk/view?pref=2&pli=1"]
+image::dev98.png["TrafficSense", height=150, width=150, align="center", link="https://drive.google.com/file/d/0B-MBtJlIZA-BWkVVYkJETEtZckk/view?pref=2&pli=1"]
+
+For more information, see the
+
+* link:"https://drive.google.com/file/d/0B-MBtJlIZA-BWkVVYkJETEtZckk/view?pref=2&pli=1"[A Captioned Demo Animation]
 
 
 ==== Tracking on Very Low-Power Sensor Motes
 
-Earlier in the link:http://www.comonsens.org/[Comonsens] project in Spain I worked on formulating and implementing a distributed particle filter on very low-power motes for target tracking.
+In the link:http://www.comonsens.org/[Comonsens] project in Spain I worked on formulating and implementing a distributed particle filter on very low-power motes for target tracking.
 
-image::DPF-matlab.png["CommonSense", height=200, width=150, link="DPF-matlab.png"]
+image::DPF-matlab.png["CommonSense", height=200, width=150, align="center", link="DPF-matlab.png"]
 
+For more information, see the
+
+* link:./talks/COMONSENS3[Slides from a project talk]
+* link:https://drive.google.com/file/d/0B-MBtJlIZA-BcU1sZXpaNlV3a3M/view?usp=sharing[A Video of testbed deployment]
 
 ==== Tree Growth
 
