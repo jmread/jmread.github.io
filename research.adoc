@@ -16,7 +16,13 @@ image::cc.png[CC, align="center"]
 
 Multi-label classification is
 closely related to __ranking__, __multi-target prediction__, and
-__structured output prediction__.  It also has close connections with other topics such as  _probabilistic graphical models_, _neural networks_, _time series forecasting_, models for _sequence learning_ and _structured-output prediction_. 
+__structured output prediction__.  It also has close connections with other topics (which are also research interestes), including
+
+* _probabilistic graphical models_
+* _neural networks_
+* _time series forecasting_
+* models for _sequence learning_ 
+* _structured-output prediction_.
 
 ===	Data Stream Classification
 
@@ -33,27 +39,29 @@ to __concept drift__.
 
 === Applications
 
-In Aalto University I was involved in the link:http://energyefficiency.aalto.fi/en/research/trafficsense/[Traffic Sense - Energy Efficient Traffic with Crowdsensing] project: route recognition and prediction. With only a week or so of location data from a mobile phone device, it was possible to make reasonably accurate predictions about the traveller's route and future destination.
+Some applications dealing with sensory-data that I have worked on with real-world sensor deployments.
 
-image::dev98.png["TrafficSense", height=150, width=150, align="center", link="https://drive.google.com/file/d/0B-MBtJlIZA-BWkVVYkJETEtZckk/view?pref=2&pli=1"]
+==== Learning to predict a traveller's route and destination
 
-For more information, see the
-
-* link:"https://drive.google.com/file/d/0B-MBtJlIZA-BWkVVYkJETEtZckk/view?pref=2&pli=1"[A Captioned Demo Animation]
+In Aalto University I was involved in the link:http://energyefficiency.aalto.fi/en/research/trafficsense/[Traffic Sense - Energy Efficient Traffic with Crowdsensing] project doing route recognition and prediction. Given only a week or so of location data from a mobile phone device, it was possible to make reasonably accurate predictions about the traveller's route and future destination. See the
 
 
-==== Tracking on Very Low-Power Sensor Motes
+//image::dev98.png["TrafficSense", height=150, width=150, align="center", link="https://drive.google.com/file/d/0B-MBtJlIZA-BWkVVYkJETEtZckk/view?pref=2&pli=1"]
 
-In the link:http://www.comonsens.org/[Comonsens] project in Spain I worked on formulating and implementing a distributed particle filter on very low-power motes for target tracking.
+* link:"https://drive.google.com/file/d/0B-MBtJlIZA-BWkVVYkJETEtZckk/view?pref=2&pli=1"[Demo Animation] (the captions explain what is going on)
 
-image::DPF-matlab.png["CommonSense", height=200, width=150, align="center", link="DPF-matlab.png"]
 
-For more information, see the
+==== Tracking on very low-power sensor motes
+
+In the link:http://www.comonsens.org/[Comonsens] project in Spain I worked on formulating and implementing a distributed particle filter on very low-power motes for target tracking.  For more information, see the
+
+
+//image::DPF-matlab.png["CommonSense", height=200, width=150, align="center", link="DPF-matlab.png"]
 
 * link:./talks/COMONSENS3[Slides from a project talk]
 * link:https://drive.google.com/file/d/0B-MBtJlIZA-BcU1sZXpaNlV3a3M/view?usp=sharing[A Video of testbed deployment]
 
-==== Tree Growth
+==== Modelling tree growth in Scotts pine
 
 In the project http://www.hiit.fi/pm/multitree/[MultiTree - Multi-scale modelling of tree growth, forest ecosystems, and their environmental control], I am working with forestry scientists to model intra-annual growth of pine trees using machine learning methods.
 
