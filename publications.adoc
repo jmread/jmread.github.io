@@ -68,7 +68,7 @@ link:http://perso.telecom-paristech.fr/~jread/papers/Read,%20Perez-Cruz,%20Bifet
 In Proc. of __The 30th ACM Symposium on Applied Computing (SAC 2015)__. Salamanca, Spain. 2015.
 
 Jesse Read, Antti Puurula, Albert Bifet.
-link:http:http://perso.telecom-paristech.fr/~jread/papers/Read,%20Puurula,%20Bifet%20-%20Multi-label%20Classification%20with%20Meta-Labels.pdf[Multi-label
+link:http://perso.telecom-paristech.fr/~jread/papers/Read,%20Puurula,%20Bifet%20-%20Multi-label%20Classification%20with%20Meta-Labels.pdf[Multi-label
 Classification with Meta
 Labels]link:./talks/ICDM2014-slides.pdf[[slides]]. __In Proc. of IEEE
 International Conference on Data Mining (ICDM 2014)__. pp 941-946.
@@ -150,7 +150,7 @@ link:./talks/presentation-christchurch.pdf[[slides]]
 === Workshop Proceedings / Demos
 
 Jesse Read, Albert Bifet. 
-link:http:http://perso.telecom-paristech.fr/~jread/papers/Read,%20Bifet%20-%20Data%20Stream%20Classification%20using%20Random%20Feature%20Functions%20and%20Novel%20Method%20Combinations.pdf[Data Stream Classification using Random Feature Functions and Novel Method Combinations].  
+link:http://perso.telecom-paristech.fr/~jread/papers/Read,%20Bifet%20-%20Data%20Stream%20Classification%20using%20Random%20Feature%20Functions%20and%20Novel%20Method%20Combinations.pdf[Data Stream Classification using Random Feature Functions and Novel Method Combinations].  
 RTStreams2015: The 1st IEEE International Workshop on Real Time Data Stream Analytics held in conjunction with IEEE BigDataSE-15. 2015.
 Helsinki, Finland. 2015.
 
@@ -177,7 +177,7 @@ Analytics Open Source Framework]. Demo at Machine Learning and Knowledge
 Discovery in Databases, European Conference, ECML PKDD. September, 2011
 
 Jesse Read, Bernhard Pfahringer, Geoff Holmes.
-link:http:http://perso.telecom-paristech.fr/~jread/papers/synth.pdf[Generating Synthetic Multi-label Data Streams].
+link:http://perso.telecom-paristech.fr/~jread/papers/synth.pdf[Generating Synthetic Multi-label Data Streams].
 In Proc. of ECML/PKKD 2009 Workshop on Learning from Multi-label Data
 (MLD'09). Bled, Slovenia, September 2009.
 link:./talks/ecml-2009-synth-poster.pdf[[poster]]
