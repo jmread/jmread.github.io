@@ -6,6 +6,10 @@ I am the creator and main developer of the link:http://meka.sourceforge.net[MEKA
 //image::GUI04.png["MEKA", height=100, width=100, link="GUI04.png"]
 A Java framework containing around two dozen multi-label and multi-output classifiers for train/test, cross validation, incremental and semi-supervised learning.
 
+=== Molearn: A Multi-label/multi-target framework in Python
+
+I started the link:https://github.com/jmread/molearn[Molearn] Project, which provides a Python implementation of some of the classifiers included in MEKA, using +numpy+ and +sklearn+.
+
 === MOA: Massive Online Analysis
 
 I am involved in the link:http://moa.cs.waikato.ac.nz[MOA Project] for learning in data streams.

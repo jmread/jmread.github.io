@@ -5,7 +5,7 @@
 
 </div>
 <div class="menu">
-<img src="./me_sm.jpg" alt="picture" />
+<img src="./images/me_sm.jpg" alt="picture" />
 <!-- <div class="menu_title">Menu</div> -->
 <ul>
 <li><a href="index.html" class="menu_link">Contact</a></li>

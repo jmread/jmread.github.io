@@ -1,7 +1,5 @@
 #!/bin/sh
 
-ADPATH="$HOME/Downloads/asciidoc-8.6.9/asciidoc.py"
-ADPATH="$HOME/apps/usr/local/bin"
 ADPATH="/usr/bin/asciidoc"
 ASCIIDOC="$ADPATH --backend=xhtml11 \
 	-a linkcss \
@@ -24,11 +22,11 @@ if [ -f $INPUT ] && [ `echo $INPUT | grep -c ".adoc$"` == 1 ] ; then
 	OUTPUT=`basename $INPUT .adoc`
 	$ASCIIDOC --out-file $OUTPUT.html $INPUT;
 
-	# Else if a directory, process its contents.
+# Else if a directory, process its contents.
 elif [ -d $INPUT ] ; then
 	echo "Processing directory $INPUT"
 	process_asciidoc `ls $INPUT/*`
 fi
 
-#done
+# Done !
 
