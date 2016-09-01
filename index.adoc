@@ -13,7 +13,7 @@
 
 == Contact
 
-*Email*: firstname.lastname@gmail.com
+*Email*: firstname . lastname @ gmail.com
 
 //*Telephone*: +33 (0)1 ...
 
