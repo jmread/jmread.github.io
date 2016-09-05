@@ -4,8 +4,8 @@ Slides from a selection of talks and tutorials. The slides from conference and w
 
 === Tutorials
 
-link:./talks/Tutorial-MLC-Ohrid.pdf[Multi-label Classification for Batch and Streaming Data]
-_Summer School on Mining Big and Complex Data_ 04-08 September 2016, Ohrid, Macedonia.
+link:./talks/slides_MAESTRA.pdf[Multi-label Classification for Batch and Streaming Data]
+_MAESTRA Summer School on Mining Big and Complex Data_ 04-08 September 2016, Ohrid, Macedonia.
 	
 link:./talks/Tutorial-MLC-Porto.pdf[Multi-label Classification]  
 _ECML-PKDD Summer School on Data Sciences for Big Data_ 02-05 September 2015, Porto, Portugal.
