@@ -3,17 +3,9 @@
 :halign: left
 :valign: top
 
-//[grid=none,frame=none]
-//|==============================================
-//| Since December 2013 I am a researcher at http://ics.aalto.fi/en/[Aalto University] and http://www.hiit.fi/[HIIT] in Finland. 
-//|Prior to that I was a post-doc, and then lecturer, in the http://www.tsc.uc3m.es/[Department of Signal Theory and Communications at the Universidad Carlos III, Madrid].
-//| My main research interests include *multi-label / multi-output* classification, classification in *sequential data* and *evolving data streams,* and *sensory data*. 
-//| I completed my PhD in the http://cs.waikato.ac.nz/ml/[Machine Learning Group at the University of Waikato] in 2010. 
-//|==============================================
-
 == Contact
 
-*Email*: firstname . lastname @ gmail.com
+*Email*: firstname . lastname @ polytechnique.edu
 
 //*Telephone*: +33 (0)1 ...
 
@@ -21,6 +13,7 @@
 
 Jesse Read + 
 LIX, École Polytechnique +
+Bâtiment Alan Turing + 
 1 rue Honoré d'Estienne d'Orves +
 91120 Palaiseau +
 FRANCE
@@ -64,7 +57,6 @@ FRANCE
 	* [September 2016] I am now assistant professor at l'link:http://www.polytechnique.edu/[École Polytechnique]
 	* [August 2016] Co-chair of the link:http://bigmine.github.io/bigmine16/[KDD BigMine 16] workshop
 	* [February 2016] I am now working in link:http://telecom-paristech.fr/[Télécom ParisTech].
-// * [January 2016] This page is being moved to link:http://jmread.github.io/[GitHub pages]
     * [November 2015] A new version of link:https://sourceforge.net/projects/meka/files/meka-1.9.0/[MEKA] released, source code moved to link:https://github.com/Waikato/meka[github].
 	* [September 2015] link:./talks/Tutorial-MLC-Porto.pdf[Tutorial on Multi-label Classification] given at _Summer School on Data Sciences for Big Data_ in Porto.
 	* [June 2015] New version of https://sourceforge.net/projects/meka/files/meka-1.7.7/[MEKA released]
