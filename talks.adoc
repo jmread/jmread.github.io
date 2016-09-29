@@ -68,9 +68,13 @@ Departament de Llenguatges i Sistemes Informàtics, Barcelona, October
 
 == Teaching
 
-*Special Course in Computer and Information Science III P (5 ECTS) Spring 2015* (with Jaakko Hollmén) _Dynamical models for prediction and decision making_
+*Methods for Big Data Analytics 2016* _M2_ École Polytechnique.
 
-*Tratamiento de Datos 2013/2014* (Laboratorios - Procesos Gaussianos). _Máster Universitario en Ingeniería de Telecomunicación_, Universidad Carlos III de Madrid.
+*Machine Learning I, 2016* École Polytechnique.
+
+*Special Course in Computer and Information Science III P (5 ECTS) Spring 2015* (with Jaakko Hollmén) _Dynamical models for prediction and decision making_ Aalto University.
+
+*Tratamiento de Datos 2013/2014* (Labs - Procesos Gaussianos). _Máster Universitario en Ingeniería de Telecomunicación_, Universidad Carlos III de Madrid.
     [link:codigo_matlab_1.zip[Código Matlab Part 1], link:codigo_matlab_2.zip[Part 2]]. 
 
 *Systems and Signals 2013/2014* (Part 1/2) _Grado en Ing. Biomédica_, Universidad Carlos III de Madrid.  

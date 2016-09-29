@@ -2,6 +2,8 @@
 
 === Journals
 
+Jesse Read, Luca Martino, Jaakko Hollmén. link:http://authors.elsevier.com/sd/article/S0031320316302758[Multi-label Methods for Prediction with Sequential Data]. _Pattern Recognition_. Vol. 63(March). pp 45--55. 2017.
+
 Liisa Kulmala, Jesse Read, Pekka Nöjd, Cyrille B. K. Rathgeber, Henri E. Cuny, Jaakko Hollmén, Harri Mäkinen. link:http://www.sciencedirect.com/science/article/pii/S0168192316303677[Identifying the main drivers for the production and maturation of Scots pine tracheids along a temperature gradient]. _Agricultural and Forest Meteorology_. Vol. 232(January). pp 210--224. 2017.
 
 Jesse Read, Peter Reutemann, Bernhard Pfahringer, Geoff Holmes. link:http://jmlr.org/papers/v17/12-164.html[MEKA: A Multi-label/Multi-target Extension to Weka]. _Journal of Machine Learning Research_. Vol. 17(21). pp 1--5. 2016.
