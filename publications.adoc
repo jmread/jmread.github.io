@@ -6,6 +6,8 @@ Jesse Read, Luca Martino, Jaakko Hollmén. link:http://authors.elsevier.com/sd/a
 
 Liisa Kulmala, Jesse Read, Pekka Nöjd, Cyrille B. K. Rathgeber, Henri E. Cuny, Jaakko Hollmén, Harri Mäkinen. link:http://www.sciencedirect.com/science/article/pii/S0168192316303677[Identifying the main drivers for the production and maturation of Scots pine tracheids along a temperature gradient]. _Agricultural and Forest Meteorology_. Vol. 232(January). pp 210--224. 2017.
 
+Diego Marron, Jesse Read, Albert Bifet. link:http://www.sciencedirect.com/science/article/pii/S0164121216300784[Data Stream Classification using Random Feature Functions and Novel Method Combinations]. _Journal of Systems & Software_. Vol. In Press(000). pp 1--10. 2016.
+
 Jesse Read, Peter Reutemann, Bernhard Pfahringer, Geoff Holmes. link:http://jmlr.org/papers/v17/12-164.html[MEKA: A Multi-label/Multi-target Extension to Weka]. _Journal of Machine Learning Research_. Vol. 17(21). pp 1--5. 2016.
 
 Jesse Read, Indṙe Žliobaiṫe, Jaakko Hollmén. link:http://www.sciencedirect.com/science/article/pii/S0306437915001659[Labeling sensing data for mobility modeling]. _Information Systems_. Vol. In Press(0). pp 0. 2015.
@@ -62,6 +64,8 @@ link:./papers/Seong%20Su,%20Yen%20Yee,%20Read%20-%20Exploring%20Text-based%20and
 __eMinds International Journal on Human-Computer Interaction__. Vol. I(3), (2007).
 
 === Conference Proceedings
+
+Diego Marron, Jesse Read, Albert Bifet, Talel Abdessalem, Eduard Ayguadé, José R. Herrero. *Echo State Hoeffding Tree Learning*. To appear in Proc. of ACML 2016: The 8th Asian Conference on Machine Learning (to appear). 2016.
 
 Albert Bifet, Gianmarco De Francisci Morales, Jesse Read, Bernhard Pfahringer, Geoff Holmes. 
 link:http://dl.acm.org/citation.cfm?id=2783372[Efficient Online Evaluation of Big Data Stream Classifiers]. 
@@ -152,6 +156,8 @@ Science Research Student Conference. Christchurch, New Zealand (2008).
 link:./talks/presentation-christchurch.pdf[[slides]]
 
 === Workshop Proceedings / Demos
+
+Ngurah Agus Sanjaya Er, Jesse Read, Talel Abdessalem, Stephane Bressan. **Set Labelling by Example**. The 11th International Workshop on Information Search, Integration, and Personalization. 2016.
 
 Jesse Read, Albert Bifet. 
 link:http://perso.telecom-paristech.fr/~jread/papers/Read,%20Bifet%20-%20Data%20Stream%20Classification%20using%20Random%20Feature%20Functions%20and%20Novel%20Method%20Combinations.pdf[Data Stream Classification using Random Feature Functions and Novel Method Combinations].  
