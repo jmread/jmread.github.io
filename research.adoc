@@ -3,7 +3,8 @@
 === Multi-label Classification
 
 //talks/Multilabel-Part01.pdf
-Multi-label classification is relevant to many domains, for example text
+
+_Multi-label classification_ is relevant to many domains, for example text
 categorisation (a document belongs to multiple categories), scene
 classification (each image may have be associated with multiple concepts or objects)
 as well as video and other media, medical diagnosis, and applications in
@@ -13,6 +14,7 @@ The main challenge is detecting and modelling dependencies
 between labels, without this model becoming too computationally complex. 
 
 image::figures/cc.png[CC, align="center"]
+image::figures/ml.png[ML, align="center"]
 
 Multi-label classification is
 closely related to __ranking__, __multi-target prediction__, and
