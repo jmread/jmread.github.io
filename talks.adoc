@@ -68,11 +68,17 @@ Departament de Llenguatges i Sistemes Informàtics, Barcelona, October
 
 == Teaching
 
-*Methods for Big Data Analytics 2016* _M2_ École Polytechnique.
+//MAP670 MBDA
+*Methods for Big Data Analytics (M2-671) 2016* _M2_ Datascience Program. École Polytechnique, Université Paris Saclay.
 
-*Machine Learning I, 2016* École Polytechnique.
+//INF554 ML1
+*Introduction to Machine Learning, 2016*. _M1_. École Polytechnique.
 
-*Special Course in Computer and Information Science III P (5 ECTS) Spring 2015* (with Jaakko Hollmén) _Dynamical models for prediction and decision making_ Aalto University.
+//(with Albert Bifet)
+*IoT Stream Data Mining 2016-2017*. _M2_ Data and Knowledge Program. Université Paris Saclay
+
+//(with Jaakko Hollmén) 
+*Special Course in Computer and Information Science III P (5 ECTS) Spring 2015* _Dynamical models for prediction and decision making_ Aalto University.
 
 *Tratamiento de Datos 2013/2014* (Labs - Procesos Gaussianos). _Máster Universitario en Ingeniería de Telecomunicación_, Universidad Carlos III de Madrid.
     [link:codigo_matlab_1.zip[Código Matlab Part 1], link:codigo_matlab_2.zip[Part 2]]. 
