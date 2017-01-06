@@ -25,8 +25,6 @@ FRANCE
 //75013 Paris +
 //FRANCE
 
-//=== Postal Address
-//
 //Aalto University School of Science +
 //Department of Information and Computer Science +
 //P.O. Box 15400 +
@@ -53,6 +51,7 @@ FRANCE
 
 == News
 
+	* [December 2016] Demo Track Co-Chair for link:http://ecmlpkdd2017.ijs.si[ECML 2017]
 	* [September 2016] I am giving a tutorial talk at the link:http://maestra-project.eu/school/[_Summer School on Mining Big and Complex Data_] in Ohrid, Macedonia.
 	* [September 2016] I am now assistant professor at l'link:http://www.polytechnique.edu/[École Polytechnique]
 	* [August 2016] Co-chair of the link:http://bigmine.github.io/bigmine16/[KDD BigMine 16] workshop

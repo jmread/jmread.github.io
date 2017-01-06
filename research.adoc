@@ -2,23 +2,20 @@
 
 === Multi-label Classification
 
-//talks/Multilabel-Part01.pdf
+In _multi-label classification_, multiple target variables are modelled and predicted together for each instance, 
+as opposed to the traditional learning problem where a single target variable (class) is predicted.  The main challenge 
+is detecting and modelling dependencies among labels, while trying to remain computationally tractable to large problems.
 
-_Multi-label classification_ is relevant to many domains, for example text
-categorisation (a document belongs to multiple categories), scene
-classification (each image may have be associated with multiple concepts or objects)
-as well as video and other media, medical diagnosis, and applications in
-microbiology. 
+Multi-label learning is relevant to many domains, for example text categorisation (a document belongs to multiple categories), 
+scene classification (each image is associated with multiple concepts or objects) as well as video and other media, 
+medical classification, and applications in microbiology. 
 
-The main challenge is detecting and modelling dependencies
-between labels, without this model becoming too computationally complex. 
 
-image::figures/cc.png[CC, align="center"]
-image::figures/ml.png[ML, align="center"]
+image::figures/cc.png[CC, align="center"] 
+// | image::figures/ml.png[ML, align="center"]
 
-Multi-label classification is
-closely related to __ranking__, __multi-target prediction__, and
-__structured output prediction__.  It also has close connections with other topics (which are also research interestes), including
+The general case of __multi-output prediction__ includes the regression case; it is a particular type of 
+__structured output prediction__.  It has close connections with other topics (which are also research interestes), including
 
 * _probabilistic graphical models_
 * _neural networks_
