@@ -5,7 +5,7 @@
 
 == Contact
 
-*Email*: firstname . lastname @ polytechnique.edu
+*Email*: [line-through]#firstname . lastname @ polytechnique.edu# <- *not working today (06.06.17), use jread @ lix.polytechnique.edu instead*
 
 //*Telephone*: +33 (0)1 ...
 
@@ -33,10 +33,10 @@ FRANCE
 == Bio
 
 * _September 2016 -- Present_. Assistant professor in the http://www.lix.polytechnique.fr/dascim/[DaSciM] group at l'link:http://www.polytechnique.edu/[École Polytechnique] in France.
-* _February 2016 -- August 2016_. Research and Development engineer in the link:http://www.infres.enst.fr/wp/[INFRES] group at link:http://telecom-paristech.fr/[Télécom ParisTech] in France.
+* _February 2016 -- August 2016_. Researcher in the link:http://www.infres.enst.fr/wp/[INFRES] group at link:http://telecom-paristech.fr/[Télécom ParisTech] in France.
 * _December 2013 -- January 2016_. Research scientist in the link:http://www.hiit.fi/pm[Parsimonious Modelling Group], affiliated with http://ics.aalto.fi/en/[Aalto University] and the http://www.hiit.fi/[Helsinki Institute for Information Technology] in Finland.
 * _October 2010 -- November 2013_. Post-doc (and then lecturer) in the http://www.tsc.uc3m.es/[Department of Signal Theory and Communications at the Universidad Carlos III de Madrid] in Spain. 
-* _September 2010_. Completed my PhD in the http://cs.waikato.ac.nz/ml/[Machine Learning Group at the University of Waikato] in New Zealand.
+* _September 2010_. Completed PhD in the http://cs.waikato.ac.nz/ml/[Machine Learning Group at the University of Waikato] in New Zealand.
 //Earlier I did my BCMS(Hons.) at Waikato.
 
 //My main research interests are in the field of machine learning, particularly
@@ -51,7 +51,10 @@ FRANCE
 
 == News
 
-	* [December 2016] Demo Track Co-Chair for link:http://ecmlpkdd2017.ijs.si[ECML 2017]
+	* [May 2017] Co-chair of link:http://bigmine.github.io/bigmine17/[KDD BigMine 17] workshop again this year, and guest editor of the associated JDSA Journal http://static.springer.com/sgw/documents/1606778/application/pdf/SI_Big+Data+IoT+Streams+and+Heterogeneous+Source+Mining.pdf[Special Issue]
+	* [April 2017] A new version of link:https://meka.sourceforge.net[MEKA] released (1.9.1)
+//	* [February 2017] Part of the link:https://portail.polytechnique.edu/datascience/fr[Data Science Initiative]
+	* [December 2016] I am Demo Track Co-Chair for link:http://ecmlpkdd2017.ijs.si[ECML 2017]. Consider submitting a demo paper!
 	* [September 2016] I am giving a tutorial talk at the link:http://maestra-project.eu/school/[_Summer School on Mining Big and Complex Data_] in Ohrid, Macedonia.
 	* [September 2016] I am now assistant professor at l'link:http://www.polytechnique.edu/[École Polytechnique]
 	* [August 2016] Co-chair of the link:http://bigmine.github.io/bigmine16/[KDD BigMine 16] workshop
