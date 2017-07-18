@@ -12,7 +12,7 @@
 <li><a href="research.html" class="menu_link">Research</a></li>
 <li><a href="publications.html" class="menu_link">Publications</a></li>
 <li><a href="talks.html" class="menu_link">Talks / Teaching</a></li>
-<li><a href="activities.html" class="menu_link">Professional Activities</a></li>
+<li><a href="activities.html" class="menu_link">Activities</a></li>
 <li><a href="software.html" class="menu_link">Software and Datasets</a></li>
 <!-- <li><a href="links.html" class="menu_link">Links</a></li> -->
 </ul>
