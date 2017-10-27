@@ -132,13 +132,9 @@ link:http://perso.telecom-paristech.fr/~jread/papers/CD-MOA:%20Change%20Detectio
 Change Detection Framework for Massive Online Analysis.] In Proc. of
 _The 12th International Symposium on Intelligent Data Analysis (IDA 2013)._ 2013.
 
-Albert Bifet, Jesse Read, Indre Zliobaite, Bernhard Pfahringer, and
-Geoff Holmes.
-link:http://perso.telecom-paristech.fr/~jread/papers/Bifet%20et%20al.%20-%20Pitfalls%20in%20Benchmarking%20Data%20Stream%20Classification%20and%20How%20to%20Avoid%20Them.pdf[Pitfalls
-in benchmarking data stream classification and how to avoid them.] In
-Proc. of the __European Conference on Machine Learning and Principles
-and Practice of Knowledge Discovery in Databases (ECMLPKDD 2013)__.
-2013.
+Albert Bifet, Jesse Read, Indre Zliobaite, Bernhard Pfahringer, and Geoff Holmes.
+link:http://www.ecmlpkdd2013.org/wp-content/uploads/2013/07/168.pdf[Pitfalls in benchmarking data stream classification and how to avoid them.] 
+In Proc. of the __European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECMLPKDD 2013)__.  2013.
 
 Albert Bifet, Jesse Read, Bernhard Pfahringer, Geoff Holmes.
 link:https://drive.google.com/file/d/0B-MBtJlIZA-Banl4RXV1VGZCSWc/view?usp=sharing[Efficient Data Stream Classification via
