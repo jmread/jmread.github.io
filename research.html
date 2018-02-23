@@ -44,59 +44,38 @@
 <div class="paragraph"><p>My main research interests are in the area of <strong>machine learning</strong> and <strong>data science</strong>, <strong>artificial intelligence</strong> and <strong>reinforcement learning</strong>, <strong>IoT</strong> and <strong>sensor analytics</strong>, and sequential data such as <strong>time series</strong> and <strong>data-stream mining</strong>.</p></div>
 <div class="sect2">
 <h3 id="_multi_label_classification">Multi-label Classification</h3>
-<div class="paragraph"><p>In <strong>multi-label classification</strong>, multiple target variables are modelled and predicted together for each instance,
-as opposed to the traditional learning problem where a single target variable (class) is predicted.  The main challenge
-is detecting and modelling dependencies among labels, while maintaining scalibility to large problems. This task is relevant to many domains where multiple labels can be assigned to each example, for example in text categorisation, scene classification, video and other media, and medical and biological applications.</p></div>
+<div class="paragraph"><p>In <strong>multi-label classification</strong>, values for multiple target variables are predicted for each instance, as opposed to the traditional supervised learning problem where a single target variable (class) is associated with each instance. The main challenge is detecting and modelling dependencies among labels, while maintaining scalibility to large problems. This task is relevant to many domains where multiple labels can be assigned to text documents, images, video and other media, and are also involved in many medical and biological applications.</p></div>
+<div class="paragraph"><p>Over the time, multi-label methods have become increasingly scalable. This leads to a broader set of applications, including predicting through space and time. It is a particular type of <strong>structured output prediction</strong> and can be applied to such topics, such as sequence prediction and forecasting, localization and segmentation. There exist many connections with other topics, namely <strong>probabilistic graphical models</strong>, <strong>neural networks</strong>, <strong>time series forecasting</strong>, sequence <strong>segmentation</strong> and mining, and dynamical models.</p></div>
 <div class="imageblock">
 <div class="content">
 <img src="figures/cc.png" alt="CC" />
 </div>
 </div>
-<div class="paragraph"><p>It is a particular type of <strong>structured output prediction</strong> and, as such, has close connections with other topics, such as <strong>probabilistic graphical models</strong>, <strong>neural networks</strong>, <strong>time series forecasting</strong>,  models for learning from <strong>sequential data</strong>.</p></div>
 </div>
 <div class="sect2">
 <h3 id="_data_stream_classification">Data Stream Classification</h3>
-<div class="paragraph"><p>Many real-world applications are found in the context of <em>data
-streams</em>, where data instances arrive continuously in a
-theoretically-infinite stream, for example in sensor networks, online
-social media, news feeds, and large deployments of e-mail.</p></div>
-<div class="paragraph"><p>In this context, methods must be able to process large volumes of data quickly
+<div class="paragraph"><p>Many real-world applications are found in the context of <em>data streams</em>, where data instances arrive continuously in a theoretically-infinite stream, for example in sensor networks, online social media, news feeds, and large deployments of e-mail.</p></div>
+<div class="paragraph"><p>When temporal dependence is present (rather than an i.i.d. stream), we may consider this a time series, but with additional important challenges.</p></div>
+<div class="paragraph"><p>For example, methods must be able to process large volumes of data quickly
 and learn and make predictions in real time, as well as detect and adapt
 to <em>concept drift</em>.</p></div>
 </div>
 <div class="sect2">
 <h3 id="_applications">Applications</h3>
-<div class="paragraph"><p>Some applications dealing with sensory-data that I have worked on with real-world sensor deployments:</p></div>
+<div class="paragraph"><p>I have been interested in many applications involving real-world data and deployments, often dealing with sensory-data.</p></div>
 <div class="sect3">
 <h4 id="_learning_to_predict_a_traveller_8217_s_route_and_destination">Learning to predict a traveller&#8217;s route and destination</h4>
-<div class="paragraph"><p>In Aalto University I was involved in the <a href="http://energyefficiency.aalto.fi/en/research/trafficsense/">Traffic Sense - Energy Efficient Traffic with Crowdsensing</a> project doing route recognition and prediction. Given only a week or so of location data from a mobile phone device, it was possible to make reasonably accurate predictions about the traveller&#8217;s route and future destination. See the</p></div>
-<div class="ulist"><ul>
-<li>
-<p>
-<a href="https://drive.google.com/open?id=0B-MBtJlIZA-BWkVVYkJETEtZckk">Demo Animation</a> (the captions explain what is going on)
-</p>
-</li>
-</ul></div>
+<div class="paragraph"><p>Given only a week or so of location data from a mobile phone device, it was possible to make reasonably accurate predictions about the a traveller&#8217;s route and future destination in an urban setting. See, for example,
+
+this <a href="https://drive.google.com/open?id=0B-MBtJlIZA-BWkVVYkJETEtZckk">Demo Animation</a> (the captions explain what is going on)&#8201;&#8212;&#8201;using real data collecting in the greater Helsinki area.</p></div>
 </div>
 <div class="sect3">
 <h4 id="_tracking_on_very_low_power_sensor_motes">Tracking on very low-power sensor motes</h4>
-<div class="paragraph"><p>In the <a href="http://www.comonsens.org/">Comonsens</a> project in Spain I worked on formulating and implementing a distributed particle filter on very low-power motes for target tracking.  For more information, see the</p></div>
-<div class="ulist"><ul>
-<li>
-<p>
-<a href="./talks/COMONSENS3">Slides from a project talk</a>
-</p>
-</li>
-<li>
-<p>
-<a href="https://drive.google.com/file/d/0B-MBtJlIZA-BcU1sZXpaNlV3a3M/view?usp=sharing">A Video of testbed deployment</a>
-</p>
-</li>
-</ul></div>
+<div class="paragraph"><p>I worked on formulating and implementing a distributed particle filter on very low-power motes (4 MHz CPU) for real-time target tracking. For example, see this  more information, see <a href="https://drive.google.com/file/d/0B-MBtJlIZA-BcU1sZXpaNlV3a3M/view?usp=sharing">this video of a demo of testbed deployment</a> for tracking using only light sensor observations.</p></div>
 </div>
 <div class="sect3">
 <h4 id="_modelling_tree_growth_in_scots_pine">Modelling tree growth in Scots pine</h4>
-<div class="paragraph"><p>In the project <a href="http://www.hiit.fi/pm/multitree/">MultiTree - Multi-scale modelling of tree growth, forest ecosystems, and their environmental control</a>, I worked with forestry scientists to model intra-annual growth of pine trees in Finand and France using machine learning methods.</p></div>
+<div class="paragraph"><p>I worked with forestry scientists to model intra-annual growth of Scots pine trees in Finand and France using time series and machine learning models.</p></div>
 </div>
 </div>
 </div>
