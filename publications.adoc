@@ -1,10 +1,10 @@
 == Publications
 
+See me also on link:http://scholar.google.com/citations?user=4gNCRFAAAAAJ&hl=en&oi=ao[Google Scholar].
+
 === Journals
 
-Roelant A. Stegmann, Indrė Žliobaitė, Tuukka Tolvanen, Jaakko Hollmén, Jesse Read. 
-*A survey of evaluation methods for personal route and destination prediction from mobility traces*.
-_WIREs Data Mining and Knowledge Discovery_. Accepted; In Press. 2017.
+Roelant A. Stegmann, Indrė Žliobaitė, Tuukka Tolvanen, Jaakko Hollmén, Jesse Read. link:http://dx.doi.org/10.1002/widm.1237[A survey of evaluation methods for personal route and destination prediction from mobility traces]. _Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery_, e1237. 2017.
 
 Heitor M. Gomes, Albert Bifet, Jesse Read, Jean Paul Barddal, Fabricio Enembreck, Bernhard Pfharinger, Geoff Holmes, Talel Abdessalem. https://link.springer.com/article/10.1007%2Fs10994-017-5642-8[Adaptive Random Forests for Evolving Data Stream Classification]. _Machine Learning Journal_. In press. pp 1--27. 2017.
 
@@ -75,12 +75,16 @@ __eMinds International Journal on Human-Computer Interaction__. Vol. I(3), (2007
 
 === Conference Proceedings
 
+Jacob Montiel, Jesse Read,  Albert, Talel Abdessalem. 
+*Scalable Model-based Cascaded Imputation of Missing Data*. 
+(To appear) in Proc. of PAKDD 2018: 22nd Pacific-Asia Conference on Knowledge Discovery and Data Mining. 2018.
+
 Diego Marron, Jesse Read, Albert Bifet, Eduard Ayguadé, José R. Herrero. 
-*Low-latency Multi-threaded Ensemble Learning for Dynamic Big Data Streams*. 
-In Proc. of IEEE International Conference on Big Data (Big Data 2017). _To Appear_. 2017.
+link:"http://ieeexplore.ieee.org/document/8257930/"[Low-latency Multi-threaded Ensemble Learning for Dynamic Big Data Streams]. 
+In Proc. of IEEE International Conference on Big Data (Big Data 2017). pp 223-232. 2017.
 
 Diego Marron, Jesse Read, Albert Bifet, Talel Abdessalem, Eduard Ayguadé, José R. Herrero. 
-http://proceedings.mlr.press/v63/Marron87.html[Echo State Hoeffding Tree Learning]. 
+link:http://proceedings.mlr.press/v63/Marron87.html[Echo State Hoeffding Tree Learning]. 
 In Proc. of ACML 2016: The 8th Asian Conference on Machine Learning. 2016.
 
 Albert Bifet, Gianmarco De Francisci Morales, Jesse Read, Bernhard Pfahringer, Geoff Holmes. 
@@ -239,12 +243,13 @@ http://www.igi-global.com/book/encyclopedia-business-analytics-optimization/9065
 of Business Analytics and Optimization (5 Volumes)] Chapter 142 (pp.
 1581 - 1584). IGI Global. (2014)
 
-	Note that some of the published articles may be covered by copyright.
-	You may browse the articles at your convenience, in the same spirit as
-	you may read a journal or a proceedings volume in a public library.
-	Copying, or distributing these files may violate the copyright
-	protection law.
+=== Edited Books
 
-=== Citations
+Yasemin Altun, Kamalika Das, Taneli Mielikäinen, Donato Malerba, Jerzy Stefanowski, Jesse Read, Marinka Žitnik, Michelangelo Ceci, Sašo Džeroski, editors. link:http://www.springer.com/us/book/9783319712727[European Conference, ECML PKDD 2017, Skopje, Macedonia, September 18--22, 2017, Proceedings, Part III]. _Machine Learning and Knowledge Discovery in Databases_. 2017.
 
-See me on link:http://scholar.google.fi/citations?user=4gNCRFAAAAAJ&hl=en&oi=ao[Google Scholar]
+
+//	Note that I have made that some of the published articles may be covered by copyright.
+//	You may browse the articles at your convenience, in the same spirit as
+//	you may read a journal or a proceedings volume in a public library.
+//	Copying, or distributing these files may violate the copyright
+//	protection law.
