@@ -1,0 +1,57 @@
+== Activities
+
+=== Supervision
+
+- link:https://www.linkedin.com/in/olivier-pallanca-1b0a6227/?ppe=1[Olivier Pallanca] - _Predictive Models with Bio-markers for Chronic Insomnia Treatment_ (2017--; main supervisor)
+- link:https://www.researchgate.net/profile/Khalida_Douibi/[Khalida Douibi] - Multi-label models for learning from data in medical domains (2016--; co-encadrant, with _Mohammed Amine Chikh_)
+
+
+=== Organisation, Editing, and Senior Programme Committee
+
+- SPC IJCAI 2019
+- Guest Editor of special issue on _Big Data, IoT Streams and Heterogeneous Source Mining_, in the International Journal of Data Science and Analytics, 2017
+- Area Co-Chair (Meta-Reviewer) for ECML-PKDD 2017 
+- Demo Co-Chair of ECML-PKDD 2017 
+- Senior Programme Committee member for ACML 2017 
+- Co-Chair of BigMine (KDD Workshop) 2016, 2017, 2018
+- Poster and Video Chair of IDA (International Symposium on Intelligent Data Analysis) 2015
+
+=== Programme Committee
+
+- AAAI 2018 
+- DSAA 2017 
+- SAC 2015, 2016, 2017            
+- Someris 2016 (an ICDM Workshop)
+- ECAI 2016                                     
+- IDA 2015, 2016                                           
+- RTStreams 2015 (a BigDataSE Workshop)                   
+- ECML-PKDD 2015 (research track and PhD Track)                                       
+- IJCAI 2015                                                             
+- BigMine (a KDD Workshop) 2013, 2014, 2015                                             
+- Multi-target Prediction 2014 (an ECML-PKDD Workshop)
+- COPEM 2013 (an ECML-PKDD Workshop)                                                                  
+- MLD 2010 (ICML Workshop)                                               
+- NZCSRC 2008 (local PhD conference)
+
+And served as a reviewer for
+
+- MLD 2009, SIGKDD 2009, MOBILIGHT 2011, AISTATS 2011, MLSP 2012, ASCIIDS 2017
+
+=== Journal Reviewing
+
+- IEEE Transactions on Neural Networks and Learning Systems    
+- Machine Learning (Springer)                                    
+- Journal of Machine Learning Research                           
+- IEEE Transactions on Knowledge and Data Engineering            
+- ACM Transactions on Database Systems (TODS)
+- IEEE Transactions on Big Data                                  
+- International Journal of Intelligent Systems                   
+- Journal of Applied Mathematics                                 
+- Data Mining and Knowledge Discovery (Springer)
+- Computational Intelligence                                     
+- Journal of Systems and Software (Elsevier)                      
+
+=== Misc. 
+
+- Provided insights for *McKinsey Global Institute* in reviewing their discussion paper on link:https://www.mckinsey.com/~/media/McKinsey/Industries/Advanced%20Electronics/Our%20Insights/How%20artificial%20intelligence%20can%20deliver%20real%20value%20to%20companies/MGI-Artificial-Intelligence-Discussion-paper.ashx[Artificial Intelligence -- The Next Digital Frontier?]
+

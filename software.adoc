@@ -1,26 +1,32 @@
 == Software
 
+=== Scikit-Multiflow: A Multi-label/multi-ouput framework for streaming data in Python
+
+link:https://scikit-multiflow.github.io/[Scikit-Multiflow] provides a Python framework for comparing, evaluating, and visualizing machine learning methods in a data-stream setting. Many methods from MEKA are reimplemented here (earlier, as part of the link:https://github.com/jmread/molearn[Molearn] project). The Scikit-Learn framework supplies the `base models'. 
+image::figures/multiflow.png[multiflow, align="center"] 
+
 === MEKA: A Multi-label/multi-target Extension to weKA
 
-I am the creator and main developer of the link:http://meka.sourceforge.net[MEKA Project] for multi-label classification:
+I created the link:http://meka.sourceforge.net[MEKA Project] for multi-label classification:
+image::figures/MEKA_logo.png[meka, align="center"] 
 //image::GUI04.png["MEKA", height=100, width=100, link="GUI04.png"]
 A Java framework containing around two dozen multi-label and multi-output classifiers for train/test, cross validation, incremental and semi-supervised learning.
-
-=== Molearn: A Multi-label/multi-target framework in Python
-
-I started the link:https://github.com/jmread/molearn[Molearn] Project, which provides a Python implementation of some of the classifiers included in MEKA, using +numpy+ and +sklearn+.
 
 === MOA: Massive Online Analysis
 
 I am involved in the link:http://moa.cs.waikato.ac.nz[MOA Project] for learning in data streams.
 
+=== ALife: Artificial Life environment
+
+I created link:https://github.com/jmread/alife[ALife]: an artificial life environment for testing and comparing reinforcement learning algorithms with continous action and state space. 
+
 === A2RMS: Implementation of the A2RMS Sampling Algorithm
 
-I (with Luca Martino and David Luengo) maintain Matlab/GNU Octave link:http://a2rms.sourceforge.net/[code for the A2RMS sampling algorithm].
+link:http://a2rms.sourceforge.net/[A2RMS] is a Matlab/GNU Octave implementation of the A2RMS sampling algorithm.
 
 === DPFlib: A library in `C` for distributed particle filters.
 
-I developed link:http://sourceforge.net/projects/dpflib/[code for implementing distributed particle filters] on very low powered sensor 'motes', in the `TinyOS` operating system. However, the code is also standalone and can be compiled and run by regular `C`. Here is a link:videos/COMONSENS3.m4v[video of a deployment].
+This is link:http://sourceforge.net/projects/dpflib/[code for implementing distributed particle filters] on very low powered sensor 'motes', in the `TinyOS` operating system. However, the code is also standalone and can be compiled and run by regular `C`. Here is a link:videos/COMONSENS3.m4v[video of a deployment] with a sensor testbed.
 
 //image::DPF.jpg["DPF", height=100, width=100, link="DPF.jpg"]
 
