@@ -43,7 +43,7 @@
 <div class="sect1">
 <h2 id="_research_interests">Research Interests</h2>
 <div class="sectionbody">
-<div class="paragraph"><p>My research interests are in the areas of <strong>machine learning</strong> and <strong>data science and mining</strong>, and <strong>artificial intelligence</strong>:</p></div>
+<div class="paragraph"><p>My research interests are in the areas of <strong>machine learning</strong> and <strong>data science and mining</strong>, and <strong>artificial intelligence</strong>, including:</p></div>
 <div class="ulist"><ul>
 <li>
 <p>
@@ -81,52 +81,78 @@ Learning from <strong>evolving data streams</strong>: <strong>Time series</stron
 </p>
 </li>
 </ul></div>
+<div class="paragraph"><p>A selection of research on these topics can be found discussed/referenced below.</p></div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_a_selection_of_topics">A Selection of Topics</h2>
+<h2 id="_a_selection_of_research_activity">A Selection of Research Activity:</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="_multi_label_classification">Multi-label Classification</h3>
+<h3 id="_topic_multi_label_classification_and_regression_updated_2019">Topic: Multi-label Classification and Regression (Updated: 2019)</h3>
 <div class="paragraph"><p>In <strong>multi-label classification</strong>, <em>multiple</em> target variables are associated with each instance, as opposed to the traditional supervised learning problem where a single target variable (i.e., class) where only a single value is assigned to each instance. The main challenge is detecting and modelling dependencies among labels, while maintaining scalability to large problems.</p></div>
-<div class="paragraph"><p>This task is relevant to many domains where multiple labels can be assigned to text documents, images, video and other media, and are also involved in many medical and biological applications.</p></div>
-<div class="paragraph"><p>We developed classifier chains,</p></div>
 <div class="imageblock">
 <div class="content">
 <img src="figures/cc_small.png" alt="CC" />
 </div>
 </div>
-<div class="paragraph"><p>where, in its simplest configuration, the predictions of one model (used to predict values for one of the labels) are used as additional feature inputs for the next model in the chain. Many variations/extensions have been produced. Open questions:</p></div>
 <div class="ulist"><ul>
 <li>
 <p>
-How does this setting apply to the case of continuous outputs (regression chains)
+Our paper on <a href="http://link.springer.com/chapter/10.1007%2F978-3-642-04174-7_17">Classifier Chains</a> wins the Test of Time Award at ECML-PKDD 2019.
+        Here are the <a href="http://www.lix.polytechnique.fr/<sub>jread/slides/2019_09_18-CC_Test_of_Time.pdf">Test of Time slides</a> and also an <a href="http://www.lix.polytechnique.fr/</sub>jread/slides/2019_11_14-Wroclaw_Data_Science_Day.pdf">extended set of slides</a> about this method.
 </p>
 </li>
 <li>
 <p>
-What metrics should we be using?
+We look at how the chaining mechanism can apply to continuous outputs, i.e., <a href="https://arxiv.org/pdf/1907.08087.pdf">&#8216;Regressor Chains&#8217;</a>
 </p>
 </li>
 <li>
 <p>
-What are the existing connections to deep learning methodology?
+We have been looking at, what are the <a href="http://arxiv.org/abs/1503.09022v3">connections of classifier chains to deep learning</a>
+</p>
+</li>
+<li>
+<p>
+And, the importance of the choice of <a href="http://www.ecmlpkdd2018.org/wp-content/uploads/2018/09/608.pdf">metric in multi-label classification</a>
 </p>
 </li>
 </ul></div>
-<div class="sect3">
-<h4 id="_data_stream_classification">Data Stream Classification</h4>
-<div class="paragraph"><p>Many real-world applications are found in the context of <strong>data streams</strong>, where data instances arrive rapidly and continuously in a theoretically-infinite stream, for example in sensor networks, online social media and text streams, anomaly and event detection.</p></div>
-<div class="paragraph"><p>Many assumptions made in the literature about data streams don&#8217;t actually need to be met in practice (such as instance-incremental learning; often batch-incremental approximations are good enough). Other assumptions are more difficult to meet, for example, a stream of labels. Often few or now labels are available. A typical scenario is that of <strong>anomaly detection</strong>. Or available in the form of a reward signal (reinforcement learning). If a stream of labels is available, the label often represents the future (now the present); this indicates strong temporal dependence and we may consider this a time series, but still with the important constraints of streams: methods must be able to learn and make predictions in real time (a full forward-backward pass is not possible), as well as detect and adapt to <strong>concept drift</strong>.</p></div>
-<div class="paragraph"><p>We have started the <a href="test">Scikit-Multiflow</a> project for learning from data streams in Python.</p></div>
-</div>
-<div class="sect3">
-<h4 id="_modelling_and_diagnosis_of_insomnia">Modelling and diagnosis of insomnia</h4>
-<div class="paragraph"><p>We (with Olivier Pallanca) are building predictive models for diagnosing different types of insomnia (including types which can be treated with non-pharmaceutical options) and predicting a response to the different treatments. The idea is to formulate the most appropriate treatment for each patient (personalised medicine). We have psychological questionnaires, EEG and ECG signals, for around thousand patients. This involves a number of subtasks such as event detection in sequences and streams involving multiple correlated outputs.</p></div>
-</div>
 </div>
 <div class="sect2">
-<h3 id="_application_predicting_an_urban_traveller_8217_s_route_and_destination">Application: Predicting an urban traveller&#8217;s route and destination</h3>
+<h3 id="_topic_data_stream_classification_update_2019">Topic: Data Stream Classification (Update 2019)</h3>
+<div class="paragraph"><p>Many real-world applications are found in the context of <strong>data streams</strong>, where data instances arrive rapidly and continuously in a theoretically-infinite stream, for example in sensor networks, online social media and text streams, anomaly and event detection. It is also relevant to reinforcement learning.</p></div>
+<div class="paragraph"><p>Many assumptions made in the literature about data streams don&#8217;t actually need to be met in practice and, on the other hand, many real constraints are not often taken into account, for example:</p></div>
+<div class="ulist"><ul>
+<li>
+<p>
+Batch-incremental approximations <a href="http://www.springerlink.com/content/yv714412n6w21170/">are often good enough</a>, or <a href="https://ieeexplore.ieee.org/document/8622222">can be used together</a> with incremental learning.
+</p>
+</li>
+<li>
+<p>
+Supervision (true labels) may be <a href="">delayed</a> or often never available (<a href="https://dl.acm.org/citation.cfm?id=2695871">semi-spervised/partially-labeled</a> streams)
+</p>
+</li>
+<li>
+<p>
+All concept-drifting streams contain temporal dependence, i.e., they are time series, and <a href="https://arxiv.org/abs/1810.02266">should be modeled as such</a>, including <a href="https://dl.acm.org/citation.cfm?id=2783372">under evaluation</a>.
+</p>
+</li>
+<li>
+<p>
+Hoeffding trees are <a href="https://arxiv.org/abs/1810.02266">not actually instance-incremental models</a>, and in fact theoretically they can be seen as stable learners, unlike standard/batch decision tree induction. We can make them unstable (and thus better suited to ensembles) with <a href="https://Streaming%20Random%20Patches%20for%20Evolving%20Data%20Stream%20Classification"">streaming random patches</a>.
+</p>
+</li>
+</ul></div>
+<div class="paragraph"><p>We have started the <a href="test">Scikit-Multiflow</a> project for learning from data streams in Python.</p></div>
+</div>
+<div class="sect2">
+<h3 id="_application_modelling_and_diagnosis_of_insomnia_updated_04_2019">Application: Modelling and diagnosis of insomnia (Updated: 04/2019)</h3>
+<div class="paragraph"><p>We (work with Olivier Pallanca, neurophysiologist) are building predictive models for diagnosing different types of insomnia and, more importantly, predicting the response to different treatment options based on the personal characteristics of each patient. We have a large amount of data per patient (psychological questionnaires, overnight EEG and ECG signals, skin conductance, eye movement, reaction time, &#8230;). This involves a number of subtasks such as event detection in sequences and streams involving multiple correlated outputs. Interpretability of models is a key aspect. See, e.g., "<a href="./talks/2019_09_07-AIforHealth.pdf">Machine Learning and AI in Healthcare</a>"</p></div>
+</div>
+<div class="sect2">
+<h3 id="_application_predicting_an_urban_traveller_8217_s_route_and_destination_2015">Application: Predicting an urban traveller&#8217;s route and destination (2015)</h3>
 <div class="paragraph"><p>Given only a week or so of location data from a mobile phone device, it was possible to make reasonably accurate predictions about the a traveller&#8217;s route and future destination in an urban setting. Here is a <a href="https://drive.google.com/open?id=0B-MBtJlIZA-BWkVVYkJETEtZckk">Demo Animation</a> (the captions explain what is going on)</p></div>
 <div class="imageblock" style="text-align:center;">
 <div class="content">
@@ -138,17 +164,17 @@ What are the existing connections to deep learning methodology?
 <div class="paragraph"><p>&#8212;&#8201;using real data collecting in the greater Helsinki area.</p></div>
 </div>
 <div class="sect2">
-<h3 id="_application_modelling_tree_growth_in_scots_pine">Application: Modelling tree growth in Scots pine</h3>
+<h3 id="_application_modelling_tree_growth_in_scots_pine_2015">Application: Modelling tree growth in Scots pine (2015)</h3>
 <div class="paragraph"><p>We worked with forestry scientists from the University of Helsikni to model intra-annual growth of Scots pine trees at sites in Finland and France using time series and machine learning models <a href="http://www.sciencedirect.com/science/article/pii/S0168192316303677">(paper)</a>.</p></div>
 </div>
 <div class="sect2">
-<h3 id="_kaggle_comptition_meta_labels_for_large_scale_hierarchical_text_classification">Kaggle Comptition: Meta labels for Large Scale Hierarchical Text Classification</h3>
+<h3 id="_kaggle_competition_meta_labels_for_large_scale_hierarchical_text_classification_2014">Kaggle Competition: Meta labels for Large Scale Hierarchical Text Classification (2014)</h3>
 <div class="paragraph"><p>We won the 2014 LSHTC4 Kaggle competition, in part using an approach based on <strong>meta labels</strong>. Papers (see publications):
 - Multi-label Classification with Meta Labels
 - Kaggle LSHTC4 Winning Solution</p></div>
 </div>
 <div class="sect2">
-<h3 id="_application_tracking_on_very_low_power_sensor_motes">Application: Tracking on very low-power sensor motes</h3>
+<h3 id="_application_tracking_on_very_low_power_sensor_motes_2012">Application: Tracking on very low-power sensor motes (2012)</h3>
 <div class="paragraph"><p>We formulated and implementing a distributed <strong>particle filter</strong> on very low-power <em>motes</em> (4 MHz CPU) for real-time target tracking. <a href="https://drive.google.com/file/d/0B-MBtJlIZA-BcU1sZXpaNlV3a3M/view?usp=sharing">This video of a demo of testbed deployment</a> shows tracking using only light sensor observations.</p></div>
 <div class="imageblock" style="text-align:center;">
 <div class="content">
