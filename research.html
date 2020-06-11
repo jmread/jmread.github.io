@@ -47,7 +47,22 @@
 <div class="ulist"><ul>
 <li>
 <p>
-<strong>Multi-label classification</strong> and <strong>multi-output/structured prediction</strong>
+<strong>Multi-label classification</strong> and <strong>multi-output/structured prediction</strong> in general
+</p>
+</li>
+<li>
+<p>
+Learning from sequential data: <strong>data streams</strong>, <strong>time series</strong> modeling and forecasting, <strong>transfer learning</strong>, <strong>continual learning</strong>, and detection of and adaptation to <strong>concept drift</strong>
+</p>
+</li>
+<li>
+<p>
+<strong>Monte Carlo methods</strong> including <strong>MCMC</strong> methods and <strong>particle filters</strong>
+</p>
+</li>
+<li>
+<p>
+<strong>Reinforcement learning</strong>
 </p>
 </li>
 <li>
@@ -57,7 +72,7 @@
 </li>
 <li>
 <p>
-<strong>Monte Carlo methods</strong> and <strong>particle filters</strong>
+<strong>Anomaly detection</strong> and <strong>explainability</strong>
 </p>
 </li>
 <li>
@@ -65,30 +80,15 @@
 <strong>Wireless sensor networks</strong> and <strong>sensory data</strong>
 </p>
 </li>
-<li>
-<p>
-Learning from <strong>evolving data streams</strong>: <strong>Time series</strong> modeling and forecasting, <strong>transfer learning</strong>, <strong>continual learning</strong> and detection of and adaptation to <strong>concept drift</strong>
-</p>
-</li>
-<li>
-<p>
-<strong>Anomaly detection</strong> and <strong>explainability</strong>
-</p>
-</li>
-<li>
-<p>
-<strong>Reinforcement learning</strong>
-</p>
-</li>
 </ul></div>
-<div class="paragraph"><p>A selection of research on these topics can be found discussed/referenced below.</p></div>
+<div class="paragraph"><p>My work in some of these topics is discussed and referenced below.</p></div>
 </div>
 </div>
 <div class="sect1">
 <h2 id="_a_selection_of_research_activity">A Selection of Research Activity:</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="_topic_multi_label_classification_and_regression_updated_2019">Topic: Multi-label Classification and Regression (Updated: 2019)</h3>
+<h3 id="_topic_multi_label_classification_and_regression">Topic: Multi-label Classification and Regression</h3>
 <div class="paragraph"><p>In <strong>multi-label classification</strong>, <em>multiple</em> target variables are associated with each instance, as opposed to the traditional supervised learning problem where a single target variable (i.e., class) where only a single value is assigned to each instance. The main challenge is detecting and modelling dependencies among labels, while maintaining scalability to large problems.</p></div>
 <div class="imageblock">
 <div class="content">
@@ -99,7 +99,12 @@ Learning from <strong>evolving data streams</strong>: <strong>Time series</stron
 <div class="ulist"><ul>
 <li>
 <p>
-[Dec 2019] Our followup survey/review paper: <a href="https://arxiv.org/pdf/1912.13405.pdf">Classifier Chains: A Review and Perspectives</a>. Here is a set of accompanying <a href="http://www.lix.polytechnique.fr/~jread/slides/2019_11_14-Wroclaw_Data_Science_Day.pdf">slides</a>
+[May 2020] In our paper <a href="https://www.sciencedirect.com/science/article/abs/pii/S0925231220308596?via%3Dihub">Probabilistic Regressor Chains with Monte Carlo Methods</a> we look at how the chaining mechanism can apply to continuous output spaces
+</p>
+</li>
+<li>
+<p>
+[Dec 2019] Our followup survey/review paper: <a href="https://arxiv.org/pdf/1912.13405v2.pdf">Classifier Chains: A Review and Perspectives</a>. Here is a set of accompanying <a href="http://www.lix.polytechnique.fr/~jread/slides/2019_11_14-Wroclaw_Data_Science_Day.pdf">slides</a>
 </p>
 </li>
 <li>
@@ -109,26 +114,26 @@ Learning from <strong>evolving data streams</strong>: <strong>Time series</stron
 </li>
 <li>
 <p>
-[Jul 2019] We look at how the chaining mechanism can apply to continuous outputs: <a href="https://arxiv.org/pdf/1907.08087.pdf">Probabilistic Regressor Chains with Monte Carlo Methods</a>
+[2016] We looked at the <a href="http://arxiv.org/abs/1503.09022v3">connections of classifier chains to deep learning</a>
 </p>
 </li>
 <li>
 <p>
-[2016] We have been looking at, what are the <a href="http://arxiv.org/abs/1503.09022v3">connections of classifier chains to deep learning</a>
-</p>
-</li>
-<li>
-<p>
-[2019] And the importance of the choice of <a href="http://www.ecmlpkdd2018.org/wp-content/uploads/2018/09/608.pdf">metric in multi-label classification</a>
+[2019] And on the choice of <a href="http://www.ecmlpkdd2018.org/wp-content/uploads/2018/09/608.pdf">metric in multi-label classification</a>
 </p>
 </li>
 </ul></div>
 </div>
 <div class="sect2">
-<h3 id="_topic_data_stream_classification_update_2019">Topic: Data Stream Classification (Update 2019)</h3>
-<div class="paragraph"><p>Many real-world applications are found in the context of <strong>data streams</strong>, where data instances arrive rapidly and continuously in a theoretically-infinite stream, for example in sensor networks, online social media and text streams, anomaly and event detection. It is also relevant to reinforcement learning.</p></div>
+<h3 id="_topic_data_stream_classification">Topic: Data Stream Classification</h3>
+<div class="paragraph"><p>Many real-world applications are found in the context of <strong>data streams</strong>, where data instances arrive rapidly and continuously in a theoretically-infinite stream, for example in sensor networks, online social media and text streams, anomaly and event detection. <strong>Reinforcement learning</strong> is typically carried out in this scenario.</p></div>
 <div class="paragraph"><p>Many assumptions made in the literature about data streams don&#8217;t actually need to be met in practice and, on the other hand, many real constraints are not often taken into account, for example, we investigate:</p></div>
 <div class="ulist"><ul>
+<li>
+<p>
+All concept-drifting streams contain temporal dependence, i.e., they are time series, and therefore <a href="https://arxiv.org/abs/1810.02266">should be modeled</a> and <a href="https://dl.acm.org/citation.cfm?id=2783372">evaluated</a> as such.
+</p>
+</li>
 <li>
 <p>
 Batch-incremental approximations <a href="http://www.springerlink.com/content/yv714412n6w21170/">are often good enough</a>, or <a href="https://ieeexplore.ieee.org/document/8622222">can be used together</a> with incremental learning.
@@ -141,16 +146,11 @@ Supervision (true labels) may be <a href="">delayed</a> or often never available
 </li>
 <li>
 <p>
-All concept-drifting streams contain temporal dependence, i.e., they are time series, and <a href="https://arxiv.org/abs/1810.02266">should be modeled</a> and <a href="https://dl.acm.org/citation.cfm?id=2783372">evaluated</a> as such.
-</p>
-</li>
-<li>
-<p>
 Hoeffding trees are <a href="https://arxiv.org/abs/1810.02266">not actually instance-incremental models</a>, and in fact theoretically they can be seen as stable learners, unlike standard/batch decision tree induction. We can make them unstable (and thus better suited to ensembles) with <a href="https://Streaming%20Random%20Patches%20for%20Evolving%20Data%20Stream%20Classification"">streaming random patches</a>.
 </p>
 </li>
 </ul></div>
-<div class="paragraph"><p>We have started the <a href="test">Scikit-Multiflow</a> project for learning from data streams in Python.</p></div>
+<div class="paragraph"><p>[2018] We have started the <a href="https://scikit-multiflow.github.io/">Scikit-Multiflow</a> project for learning from data streams in Python.</p></div>
 </div>
 <div class="sect2">
 <h3 id="_application_modelling_and_diagnosis_of_insomnia_updated_04_2019">Application: Modelling and diagnosis of insomnia (Updated: 04/2019)</h3>
@@ -201,7 +201,7 @@ Hoeffding trees are <a href="https://arxiv.org/abs/1810.02266">not actually inst
 <img src="./images/me_sm.jpg" alt="picture" />
 <!-- <div class="menu_title">Menu</div> -->
 <ul>
-<li><a href="index.html" class="menu_link">Home</a></li>
+<li><a href="index.html" class="menu_link">Bio / Contact</a></li>
 <li><a href="research.html" class="menu_link">Research</a></li>
 <li><a href="publications.html" class="menu_link">Publications</a></li>
 <li><a href="talks.html" class="menu_link">Talks</a></li>
