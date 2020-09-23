@@ -71,7 +71,19 @@
 #content h2 
 { 
 	margin: 0; 
-	color: #006699;
+	background-color: green;
+	color: black;
+}
+
+#content h3
+{
+	color: #2020ff;
+	background-color: green;
+	padding: 20px; /* Add some padding to the heading */
+}
+
+h3 {
+	background-color: #2020ff; /* Change hex color */
 }
 
 #aside
@@ -112,3 +124,4 @@ a:hover
 {
 	font: small;
 }
+

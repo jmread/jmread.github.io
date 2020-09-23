@@ -75,6 +75,13 @@ body {
 	font-weight: bold;
 	color: #A40008
 }
+.content h3 {
+	margin-top: 0px;
+	font-size: 12px;
+	font-weight: bold;
+	background-color: #EBECF0;
+	padding: 10px; /* Add some padding to the heading */
+}
 #clear {
 	display: block;
 	clear: both;
