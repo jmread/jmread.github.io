@@ -43,22 +43,85 @@
 <div class="sect1">
 <h2 id="_research_interests">Research Interests</h2>
 <div class="sectionbody">
-<div class="paragraph"><p>My research interests are in the areas of <strong>machine learning</strong>, <strong>data science and mining</strong>, and <strong>artificial intelligence</strong> in general, including:</p></div>
+<div class="paragraph"><p>My research interests are in the areas of <strong>Machine Learning</strong>, <strong>Data Science and Mining</strong>, and <strong>Artificial Intelligence</strong> in general:</p></div>
 <div class="ulist"><ul>
 <li>
 <p>
-<strong>Multi-label classification</strong> and <strong>multi-output/structured prediction</strong>
+<strong>Multi-label classification</strong>, <strong>multi-output regression</strong>, and <strong>structured prediction</strong>
+</p>
+<div class="ulist"><ul>
+<li>
+<p>
+Classifier chains
 </p>
 </li>
 <li>
 <p>
-Learning from sequential data: <strong>data streams</strong>, <strong>time series</strong> modeling and forecasting, detection of and adaptation to <strong>concept drift</strong> and related tasks such as <strong>transfer learning</strong> and <strong>continual learning</strong>
+Probabilistic graphical models
 </p>
 </li>
 <li>
 <p>
-<strong>Monte Carlo methods</strong> including <strong>MCMC</strong> methods and <strong>particle filters</strong>
+Neural networks and deep learning
 </p>
+</li>
+<li>
+<p>
+Explainability and interpretability
+</p>
+</li>
+</ul></div>
+</li>
+</ul></div>
+<div class="ulist"><ul>
+<li>
+<p>
+Learning from <strong>sequential data</strong> and <strong>data streams</strong>
+</p>
+<div class="ulist"><ul>
+<li>
+<p>
+Time series forecasting
+</p>
+</li>
+<li>
+<p>
+Semi/weakly-supervised and delayed scenarios
+</p>
+</li>
+<li>
+<p>
+Detection of/adaptation to concept drift
+</p>
+</li>
+<li>
+<p>
+Transfer learning and continual learning
+</p>
+</li>
+<li>
+<p>
+Anomaly detection and event detection
+</p>
+</li>
+</ul></div>
+</li>
+<li>
+<p>
+<strong>Monte Carlo methods</strong>
+</p>
+<div class="ulist"><ul>
+<li>
+<p>
+MCMC methods
+</p>
+</li>
+<li>
+<p>
+SMC/Particle filters
+</p>
+</li>
+</ul></div>
 </li>
 <li>
 <p>
@@ -67,22 +130,11 @@ Learning from sequential data: <strong>data streams</strong>, <strong>time serie
 </li>
 <li>
 <p>
-<strong>Neural networks</strong> and <strong>deep learning</strong>
-</p>
-</li>
-<li>
-<p>
-<strong>Anomaly detection</strong> and <strong>explainability</strong>
-</p>
-</li>
-<li>
-<p>
-<strong>Wireless sensor networks</strong> and <strong>sensory data</strong>
-</p>
-</li>
-<li>
-<p>
-Various <strong>data science applications</strong>
+<strong>Data science applications</strong> (see below for some examples)
+
+
+
+
 </p>
 </li>
 </ul></div>
@@ -102,7 +154,7 @@ Various <strong>data science applications</strong>
 <img src="figures/cc_small.png" alt="CC" />
 </div>
 </div>
-<div class="paragraph"><p>Highlights:</p></div>
+<div class="paragraph"><p>Highlights (Updated 09/2021):</p></div>
 <div class="ulist"><ul>
 <li>
 <p>
@@ -144,12 +196,12 @@ Various <strong>data science applications</strong>
 </div>
 <div class="sect2">
 <h3 id="_topic_data_stream_classification">Topic: Data Stream Classification</h3>
-<div class="paragraph"><p>Many real-world applications are found in the context of <strong>data streams</strong>, where data instances arrive rapidly and continuously in a theoretically-infinite stream, for example in sensor networks, online social media and text streams, anomaly and event detection. <strong>Reinforcement learning</strong> is typically carried out in this scenario.</p></div>
-<div class="paragraph"><p>Many assumptions made in the literature about data streams don&#8217;t actually need to be met in practice and, on the other hand, many real constraints are not often taken into account, for example, we investigate:</p></div>
+<div class="paragraph"><p>Many real-world applications are found in the context of <strong>data streams</strong>, where data instances arrive rapidly and continuously in a theoretically-infinite stream, for example from sensors, online social media and text streams. <strong>Reinforcement learning</strong> is typically carried out in such a scenario.</p></div>
+<div class="paragraph"><p>Highlights:</p></div>
 <div class="ulist"><ul>
 <li>
 <p>
-All concept-drifting streams contain temporal dependence, i.e., they are time series, and therefore <a href="https://arxiv.org/abs/1810.02266">should be modeled</a> and <a href="https://dl.acm.org/citation.cfm?id=2783372">evaluated</a> as such.
+We <a href="https://link.springer.com/chapter/10.1007/978-3-030-61380-8_36">challenge some assumptions</a> made in the data streams literature. Namely, we find that many data-stream assumptions don&#8217;t need to be met it practice. On the other hand, we show that all concept-drifting streams contain temporal dependence, i.e., <em>they are time series</em>, and therefore <a href="https://arxiv.org/abs/1810.02266">should be modeled</a> and <a href="https://dl.acm.org/citation.cfm?id=2783372">should be evaluated</a> as such.
 </p>
 </li>
 <li>
@@ -164,11 +216,11 @@ Supervision (true labels) may be <a href="">delayed</a> or often never available
 </li>
 <li>
 <p>
-Hoeffding trees are <a href="https://arxiv.org/abs/1810.02266">not actually instance-incremental models</a>, and in fact theoretically they can be seen as stable learners, unlike standard/batch decision tree induction. We can make them unstable (and thus better suited to ensembles) with <a href="https://Streaming%20Random%20Patches%20for%20Evolving%20Data%20Stream%20Classification"">streaming random patches</a>.
+Hoeffding trees are <a href="https://arxiv.org/abs/1810.02266">not actually instance-incremental models</a>, and in fact theoretically they can be seen as stable learners, unlike standard/batch decision tree induction. For use in ensembles this is not necessarily a good thing, so we can make them unstable (and thus better suited to ensembles) with <a href="https://link.springer.com/article/10.1007/s10115-021-01579-z">streaming random patches</a>.
 </p>
 </li>
 </ul></div>
-<div class="paragraph"><p>[2018] We have started the <a href="https://scikit-multiflow.github.io/">Scikit-Multiflow</a> project for learning from data streams in Python.</p></div>
+<div class="paragraph"><p>We have developed <a href="https://jmread.github.io/software.html">software for streams</a>.</p></div>
 <div class="paragraph"><p><br></p></div>
 </div>
 <div class="sect2">
@@ -176,7 +228,7 @@ Hoeffding trees are <a href="https://arxiv.org/abs/1810.02266">not actually inst
 <div class="paragraph"><p><br></p></div>
 </div>
 <div class="sect2">
-<h3 id="_application_modelling_and_diagnosis_of_insomnia_updated_04_2019">Application: Modelling and diagnosis of insomnia (Updated: 04/2019)</h3>
+<h3 id="_application_modelling_and_diagnosis_of_sleep_disorders_updated_04_2019">Application: Modelling and diagnosis of sleep disorders (Updated: 04/2019)</h3>
 <div class="paragraph"><p>See slides, e.g., <a href="./talks/2019_09_07-AIforHealth.pdf">Machine Learning and AI in Healthcare</a>.</p></div>
 <div class="paragraph"><p>Working with Olivier Pallanca (neurophysiologist) we are building predictive models for diagnosing different types of insomnia and, more importantly, predicting the response to different treatment options based on the personal characteristics of each patient ; with data such as psychological questionnaires, overnight EEG and ECG signals, skin conductance, eye movement, reaction time. This involves a number of subtasks such as event detection in sequences and streams involving multiple correlated outputs. Interpretability of models is a key aspect.</p></div>
 <div class="paragraph"><p><br></p></div>
@@ -227,6 +279,7 @@ Hoeffding trees are <a href="https://arxiv.org/abs/1810.02266">not actually inst
 <li><a href="publications.html" class="menu_link">Publications</a></li>
 <li><a href="talks.html" class="menu_link">Talks</a></li>
 <li><a href="teaching.html" class="menu_link">Teaching</a></li>
+<li><a href="supervision.html" class="menu_link">Supervision</a></li>
 <li><a href="activities.html" class="menu_link">Activities</a></li>
 <!--<li><a href="positions.html" class="menu_link">Positions</a></li>-->
 <li><a href="software.html" class="menu_link">Software+Data</a></li>
