@@ -130,3 +130,15 @@ a.menu_link:hover {
 	font-weight: bold;
 	font-style: italic
 }
+
+.pub_label {
+	background: #FFFF00;
+	background-color: #FFFF00;
+	font-size: 10px;
+	padding: 2px;
+	-moz-border-radius: 9px;
+	-webkit-border-radius: 9px;
+	-o-border-radius: 9px;
+	-ms-border-radius: 9px;
+	border-radius: 9px;
+}
