@@ -3,8 +3,8 @@
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="description" content="Homepage of Jesse Read. École Polytechnique, Paris, France." />
-<meta name="keywords" content="phd waikato madrid universidad carlos aalto paristech telecom ecole polytechnique lix university computer science multi-label classification jesse read data streams artificial intelligence applied datascience machine learning sensor networks" />
+<meta name="description" content="Homepage of Jesse Read. Ecole polytechnique, Paris, France." />
+<meta name="keywords" content="waikato madrid universidad carlos aalto telecom paris ecole polytechnique lix university computer science multi-label classification jesse read data streams artificial intelligence applied data-science machine learning sensor networks" />
         <title>Jesse Read</title>
 <link href="./style/style.css" rel="stylesheet" type="text/css" />
 
@@ -32,8 +32,12 @@
         <!--    <strong><small>Machine Learning and Artificial Intelligence</small></strong> -->
 </div>
 
-<div id="sub_header"><small>Data Science and Mining team (DaSciM)<BR> LIX Laboratory, École Polytechnique.</small></div>
+<!-- <div id="sub_header"><small>Data Science and Mining team (DaSciM)<BR> LIX Laboratory, Ecole polytechnique.</small></div> -->
+<div id="sub_header"><small>LIX Laboratory, Ecole polytechnique.</small></div>
 
+<!--
+I work in the areas of **Artificial Intelligence, Machine Learning, and Data Science and Mining**.
+-->
 
 <div id="main_content_top"></div>
 
@@ -43,123 +47,46 @@
 <div class="sect1">
 <h2 id="_research_interests">Research Interests</h2>
 <div class="sectionbody">
-<div class="paragraph"><p>My research interests are in the areas of <strong>Machine Learning</strong>, <strong>Data Science and Mining</strong>, and <strong>Artificial Intelligence</strong> in general:</p></div>
+<div class="paragraph"><p>My research interests are in the areas of <strong>Machine Learning</strong>, <strong>Data Science and Mining</strong>, and <strong>Artificial Intelligence</strong> in general. More specifically, my research interests are a bit eclectic, but there are two major themes:</p></div>
 <div class="ulist"><ul>
 <li>
 <p>
-<strong>Multi-label classification</strong>, <strong>multi-output regression</strong>, and <strong>structured prediction</strong>
-</p>
-<div class="ulist"><ul>
-<li>
-<p>
-Classifier chains
+<strong>Multi-label classification</strong> and <strong>multi-target prediction</strong>
 </p>
 </li>
 <li>
 <p>
-Probabilistic graphical models
-</p>
-</li>
-<li>
-<p>
-Neural networks and deep learning
-</p>
-</li>
-<li>
-<p>
-Explainability and interpretability
+Learning from <strong>sequential data</strong> and <strong>data streams</strong>, which includes sequential decision making, autonomous agents, and <strong>reinforcement learning</strong>
 </p>
 </li>
 </ul></div>
-</li>
-</ul></div>
-<div class="ulist"><ul>
-<li>
-<p>
-Learning from <strong>sequential data</strong> and <strong>data streams</strong>
-</p>
-<div class="ulist"><ul>
-<li>
-<p>
-Time series forecasting
-</p>
-</li>
-<li>
-<p>
-Semi/weakly-supervised and delayed scenarios
-</p>
-</li>
-<li>
-<p>
-Detection of/adaptation to concept drift
-</p>
-</li>
-<li>
-<p>
-Transfer learning and continual learning
-</p>
-</li>
-<li>
-<p>
-Anomaly detection and event detection
-</p>
-</li>
-</ul></div>
-</li>
-<li>
-<p>
-<strong>Monte Carlo methods</strong>
-</p>
-<div class="ulist"><ul>
-<li>
-<p>
-MCMC methods
-</p>
-</li>
-<li>
-<p>
-SMC/Particle filters
-</p>
-</li>
-</ul></div>
-</li>
-<li>
-<p>
-<strong>Reinforcement learning</strong>
-</p>
-</li>
-<li>
-<p>
-<strong>Data science applications</strong> (see below for some examples)
-
-
-
-
-</p>
-</li>
-</ul></div>
+<div class="paragraph"><p>The two themes are often connected; since <strong>sequential</strong> implies <strong>multiple</strong> and often vice versa.</p></div>
+<div class="paragraph"><p>I&#8217;ll use any tools required for the job, including deep <strong>neural network</strong> architectures and <strong>deep learning</strong>; but I have a weak spot for <strong>probabilistic graphical models</strong>, <strong>Monte Carlo methods</strong> and <strong>MCMC</strong>, and <strong>decision trees</strong>.</p></div>
+<div class="paragraph"><p>Aside from the above from a theoretical and methodolocical viewpoint, I enjoy tackling real-world problems (some listed below), and data science applications; particularly those involving <strong>sensor networks</strong>, transport and <strong>energy systems</strong> and <strong>medicine</strong>, biology and the <strong>natural sciences</strong>.</p></div>
 <div class="paragraph"><p><br></p></div>
 <div class="paragraph"><p>See a <a href="http://www.lix.polytechnique.fr/~jread/talks/jesse.pdf">short presentation (pdf) of some topics of interest</a> and of the wider <a href="dascim.pdf">DaSciM team</a> (see also the <a href="http://www.lix.polytechnique.fr/dascim/">DaSciM team web page</a>). As follows a selection of research activity, a lot of which involves the work of <a href="supervision.html">PhD students</a> (and other colleagues).</p></div>
 <div class="paragraph"><p><br></p></div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_a_selection_of_research_activity">A Selection of Research Activity:</h2>
-<div class="sectionbody">
 <div class="paragraph"><p></p></div>
 <div class="sect2">
-<h3 id="_topic_multi_label_classification_and_regression">Topic: Multi-label Classification and Regression</h3>
-<div class="paragraph"><p>In <strong>multi-label classification</strong>, <em>multiple</em> target variables are associated with each instance, as opposed to the traditional supervised learning problem where a single value (i.e., class) is assigned to each instance. The main challenge is detecting and modelling dependencies among labels, while maintaining scalability to large problems.</p></div>
+<h3 id="_topic_multi_label_classification_and_multi_target_prediction">Topic: Multi-label Classification and Multi-Target Prediction</h3>
+<div class="paragraph"><p>In <strong>multi-label classification</strong>, <em>multiple</em> target variables are associated with each instance, as opposed to the traditional supervised learning problem where a single class label is assigned to each instance. This involves standard tasks such as image and text categorization, as well as recommender systems, <strong>missing value imputation</strong>, and more general <strong>structured-output prediction</strong> problems such as <strong>time series</strong> and trajectory forecasting.</p></div>
+<div class="paragraph"><p>Particular challenges: explainability and interpretability, distribution learning, distribution shift.</p></div>
+<div class="paragraph"><p>Methods of choice: classifier chains, regressor chains, probabilistic graphical models.</p></div>
 <div class="imageblock">
 <div class="content">
 <img src="figures/cc_small.png" alt="CC" />
 </div>
 </div>
-<div class="paragraph"><p>Highlights (Updated 09/2022):</p></div>
+<div class="paragraph"><p>Highlights:</p></div>
 <div class="ulist"><ul>
 <li>
 <p>
-[May 2022] When, under uncertainty, multiple modes appear in the predictive posterior distribution, it can be better to choose one of them than to predict somewhere in between them (as one usually does): <a href="https://link.springer.com/chapter/10.1007/978-3-031-01333-1_1">Multi-output regression for modal estimates</a>.
+[Jul 2023] On the <a href="https://arxiv.org/abs/2207.11742">Connection between multi-label learning and cross-domain transfer learning</a>.
+</p>
+</li>
+<li>
+<p>
+[May 2022] When, under uncertainty, the predictive posterior distribution can be multi-modal: <a href="https://link.springer.com/chapter/10.1007/978-3-031-01333-1_1">Multi-output regression for modal estimates</a>.
 </p>
 </li>
 <li>
@@ -189,7 +116,7 @@ SMC/Particle filters
 </li>
 <li>
 <p>
-[2016] The <a href="http://waikato.github.io/meka/">MEKA framework</a> for multi-label learning and evaluation is published in <a href="http://jmlr.org/papers/volume17/12-164/12-164.pdf">JMLR MLOSS</a>.
+[2016] The <a href="http://waikato.github.io/meka/">MEKA framework</a> for multi-label learning and evaluation is published in <a href="http://jmlr.org/papers/volume17/12-164/12-164.pdf">JMLR MLOSS</a>.  See <a href="https://jmread.github.io/software.html">multi-label software</a>.
 </p>
 </li>
 <li>
@@ -201,36 +128,41 @@ SMC/Particle filters
 <div class="paragraph"><p><br></p></div>
 </div>
 <div class="sect2">
-<h3 id="_topic_data_stream_classification">Topic: Data Stream Classification</h3>
-<div class="paragraph"><p>Many real-world applications are found in the context of <strong>data streams</strong>, where data instances arrive rapidly and continuously in a theoretically-infinite stream, for example from sensors, online social media and text streams. <strong>Reinforcement learning</strong> is typically carried out in such a scenario.</p></div>
+<h3 id="_topic_learning_from_data_streams">Topic: Learning from Data Streams</h3>
+<div class="paragraph"><p>Many real-world applications are found in the context of <strong>data streams</strong>, where data instances arrive rapidly and continuously in a theoretically-infinite stream, for example from sensors, online social media and text streams. <strong>Reinforcement learning</strong> is typically carried out in such a scenario; where a stream of observations comes from an environment.</p></div>
+<div class="paragraph"><p>Challenges: learning with weak, partial, noisy, and <strong>delayed labels</strong>; adaptation to <strong>concept drift</strong>; <strong>online learning</strong>.</p></div>
+<div class="paragraph"><p>Applications: anomaly and <strong>event detection</strong>, <strong>time series</strong> and <strong>trajectory forecasting</strong>, complex <strong>energy systems</strong>.</p></div>
 <div class="paragraph"><p>Highlights:</p></div>
 <div class="ulist"><ul>
 <li>
 <p>
-We <a href="https://link.springer.com/chapter/10.1007/978-3-030-61380-8_36">challenge some assumptions</a> made in the data streams literature. Namely, we find that many data-stream assumptions don&#8217;t need to be met it practice. On the other hand, we show that all concept-drifting streams contain temporal dependence, i.e., <em>they are time series</em>, and therefore <a href="https://arxiv.org/abs/1810.02266">should be modeled</a> and <a href="https://dl.acm.org/citation.cfm?id=2783372">should be evaluated</a> as such.
+[Jan 2023] We provide <a href="https://arxiv.org/abs/2212.14720">an update on data stream learning</a>, in particular a fresh look at applications
 </p>
 </li>
 <li>
 <p>
-Batch-incremental approximations <a href="http://www.springerlink.com/content/yv714412n6w21170/">are often good enough</a>, or <a href="https://ieeexplore.ieee.org/document/8622222">can be used together</a> with incremental learning.
+[2020&#8201;&#8212;&#8201;2021] We <a href="https://link.springer.com/chapter/10.1007/978-3-030-61380-8_36">challenge assumptions</a> made in the data streams literature, arguing that many don&#8217;t need to be met it practice. We also show that <a href="https://arxiv.org/abs/1810.02266">concept drift implies temporal dependence</a> and <a href="https://dl.acm.org/citation.cfm?id=2783372">should be evaluated</a> as such.
 </p>
 </li>
 <li>
 <p>
-Supervision (true labels) may be <a href="">delayed</a> or often never available (<a href="https://dl.acm.org/citation.cfm?id=2695871">semi-spervised/partially-labeled</a> streams)
+[-- 2023] Supervision (true labels) may be <a href="https://dl.acm.org/doi/10.1145/3523055">delayed</a> or are often never available (hence, <a href="https://dl.acm.org/citation.cfm?id=2695871">semi-spervised/partially-labeled</a> streams)
 </p>
 </li>
 <li>
 <p>
-Hoeffding trees are <a href="https://arxiv.org/abs/1810.02266">not actually instance-incremental models</a>, and in fact theoretically they can be seen as stable learners, unlike standard/batch decision tree induction. For use in ensembles this is not necessarily a good thing, so we can make them unstable (and thus better suited to ensembles) with <a href="https://link.springer.com/article/10.1007/s10115-021-01579-z">streaming random patches</a>.
+[2018&#8201;&#8212;&#8201;2020] We show that Hoeffding trees are <a href="https://arxiv.org/abs/1810.02266">not actually instance-incremental models</a>, and in fact theoretically they can be seen as stable learners, precisely unsuited for dynamic data streams; so introduce <a href="https://link.springer.com/article/10.1007/s10115-021-01579-z">streaming random patches</a>.
+</p>
+</li>
+<li>
+<p>
+[2014&#8201;&#8212;&#8201;2018] Batch-incremental approximations <a href="https://link.springer.com/chapter/10.1007/978-3-642-34156-4_29">often work well</a> (no need for online learning), or <a href="https://ieeexplore.ieee.org/document/8622222">can be unified</a>.
 </p>
 </li>
 </ul></div>
-<div class="paragraph"><p>We have developed <a href="https://jmread.github.io/software.html">software for streams</a>.</p></div>
+<div class="paragraph"><p>Software: <a href="https://jmread.github.io/software.html">software for streams</a>.</p></div>
 <div class="paragraph"><p><br></p></div>
-</div>
-<div class="sect2">
-<h3 id="_topic_bayesian_learning_and_monte_carlo_methods">Topic: Bayesian Learning and Monte Carlo Methods</h3>
+<div class="paragraph"><p><br></p></div>
 <div class="paragraph"><p><br></p></div>
 </div>
 <div class="sect2">
@@ -240,7 +172,7 @@ Hoeffding trees are <a href="https://arxiv.org/abs/1810.02266">not actually inst
 <div class="paragraph"><p><br></p></div>
 </div>
 <div class="sect2">
-<h3 id="_application_predicting_an_urban_traveller_8217_s_route_and_destination_2015">Application: Predicting an urban traveller&#8217;s route and destination (2015)</h3>
+<h3 id="_application_trajectory_prediction_2015">Application: Trajectory prediction (2015)</h3>
 <div class="paragraph"><p>Given only a week or so of location data from a mobile phone device, it was possible to make reasonably accurate predictions about the a traveller&#8217;s route and future destination in an urban setting. Here is a <a href="https://drive.google.com/open?id=0B-MBtJlIZA-BWkVVYkJETEtZckk">Demo Animation</a> (the captions explain what is going on)</p></div>
 <div class="imageblock" style="text-align:center;">
 <div class="content">
@@ -281,13 +213,13 @@ Hoeffding trees are <a href="https://arxiv.org/abs/1810.02266">not actually inst
 <!-- <div class="menu_title">Menu</div> -->
 <ul>
 <li><a href="index.html" class="menu_link">Home</a></li>
+<li><a href="contact.html" class="menu_link">Contact Me</a></li>
 <li><a href="research.html" class="menu_link">Research</a></li>
 <li><a href="publications.html" class="menu_link">Publications</a></li>
 <li><a href="talks.html" class="menu_link">Talks</a></li>
-<li><a href="teaching.html" class="menu_link">Teaching</a></li>
 <li><a href="supervision.html" class="menu_link">Supervision</a></li>
-<li><a href="activities.html" class="menu_link">Activities</a></li>
-<!--<li><a href="positions.html" class="menu_link">Positions</a></li>-->
+<li><a href="teaching.html" class="menu_link">Teaching</a></li>
+<li><a href="activities.html" class="menu_link">Other Activities</a></li>
 <li><a href="software.html" class="menu_link">Software</a> + <a href="data.html" class="menu_link">Data</a></li>
 </ul>
 </div>
