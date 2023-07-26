@@ -49,6 +49,10 @@ body {
 	padding: 0 30px 0 30px;
 	font-size: 12px
 }
+li {
+  margin-top: 1px; /* Adjust this value to reduce the spacing between list items */
+  margin-bottom: 1px; /* You can also use margin-top to reduce spacing above each list item if needed */
+}
 .menu {
 	width: 139px;
 	float: right;
@@ -77,6 +81,7 @@ body {
 }
 .content h3 {
 	margin-top: 0px;
+	margin-bottom: 10px;
 	font-size: 12px;
 	font-weight: bold;
 	background-color: #EBECF0;
